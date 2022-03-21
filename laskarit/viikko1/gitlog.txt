@@ -1,0 +1,114 @@
+commit ddfccbcf15a2f296fc3cd2d969f292d1462becc9
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Mon Mar 21 11:15:34 2022 +0200
+
+    loppu commitus
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ tiedostoja/file3             | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit a07842afffcbd98ebe6689824dfc9b421a08fede
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Mon Mar 21 11:11:00 2022 +0200
+
+    filet
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 82675da51327871ea9032ec04b6e625b73f92f54
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 20:49:04 2022 +0200
+
+    git add -p muutokset
+
+ eka.txt    | 2 +-
+ kolmas.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit d3b12b27acd0798bc3b5339eb898094c37bccfc6
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:44:00 2022 +0200
+
+    muutettu nimi
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit bf07658fbad0f27f772ce39c277b4780f6cd700f
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:42:36 2022 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit ca13a26568cba60ee17f06a33d0dcd402945a651
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:35:31 2022 +0200
+
+    muutos tiedosto.txt
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0070773281037f6374cbf6c8d79787faa5f8ae5a
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:34:12 2022 +0200
+
+    muutos tiedosto.txt
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1d4a92bebfcd7632632ff76e0a3cd8a67df77779
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:30:04 2022 +0200
+
+    stuff ja testi.txt
+
+ stuff/testi.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 2ea0fcb9f983fecc518c5ca6ae3a522ac2b91718
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:28:45 2022 +0200
+
+    muutos toka ja kolmas
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 74dcffaba10b2b03bb01c012907309747c617b5c
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sun Mar 20 18:26:18 2022 +0200
+
+    kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a6391aabc4e98e0425b97a3892396e2d9b18166c
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sat Mar 19 22:47:45 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit b2cfa66e186a23b1a82c758f4ce7a2ab48685183
+Author: Tatu Sorjonen <tatu.sorjonen@gmail.com>
+Date:   Sat Mar 19 17:34:44 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
