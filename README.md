@@ -13,9 +13,15 @@
 
 **foobar**
 
+
+
+
 #### Viikko 2
 
 [Linkki kuvaan](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/laskarit/viikko2/Screenshot%20from%202022-03-29%2019-59-24.png)
+
+
+
 
 
 #### Harjoitustyö
