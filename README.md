@@ -25,6 +25,6 @@
 Ajattelin tehdä ristinollan, joka toimii kahden pelinä ja voidaan valita
 tietyn kokoinen ruudukko millä pelataan (Joku ylä- ja alaraja)
 
-En kerennyt tehdä määrittelydokumenttia. Olen ollut koko edellisen ja tämän viikon koronassa ja kovassa kuumeessa. Tänään oli ainut päivä milloin vähän helpotti illalla ja pystyin tekemään nuo muut tehtävät, mutta en kerennyt tekemään dokumenttia.
+En kerennyt tehdä määrittelydokumenttia. Olen ollut koko edellisen ja tämän viikon koronassa ja kovassa kuumeessa. Tänään (29.3) oli ainut päivä milloin vähän helpotti illalla ja pystyin tekemään nuo muut tehtävät, mutta en kerennyt tekemään dokumenttia.
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/tuntikirjanpito.md)
