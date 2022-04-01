@@ -3,4 +3,5 @@
 | Päivä | Aika | Mitä tein  |
 | :----:|:-----| :-----|
 | 29.3  |  1   | Mietin sopivaa aihetta |
-| yht   |  1    | | 
+| 1.4   |  2   | Alustavan määrittelydokumentin tekeminen + Graafisen käyttöliittymän harjoittelemista |
+| yht   |  3    | | 
