@@ -13,7 +13,7 @@ Toimii Pygame kirjaston avulla.
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/tuntikirjanpito.md)
 
-## Tarvii asennukseen komennot
+## Asennukseen vaadittavat komennot
 
 Asenna python 3.8 ja poetry
 
@@ -28,7 +28,7 @@ Asenna python 3.8 ja poetry
 
 Nyt kaikki tarvittava pitäisi olla asennettuna!
 
-## Komentorivillä invokella komennot
+## Komentorivillä komennot
 
 #### Käynnistyy komennolla 
 
