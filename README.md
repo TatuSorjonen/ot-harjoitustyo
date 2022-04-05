@@ -1,5 +1,7 @@
 # Ristinolla
 
+HUOM! En kerennyt tekemään laskareita tälle kurssille. Otan L tästä viikosta niiden osalta.
+
 Tarvitsee Python version 3.8 toimiakseen.
 Toimii Pygame kirjaston avulla.
 
