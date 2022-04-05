@@ -3,7 +3,7 @@ from grid import Grid
 
 class TestGrid(unittest.TestCase):
     def setUp(self):
-        self.grid = Grid(1000, 3, 4)
+        self.grid = Grid(1000, 10, 4)
         
     def test_grid_run(self):
         self.grid.run()

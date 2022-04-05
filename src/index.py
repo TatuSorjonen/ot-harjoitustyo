@@ -2,7 +2,7 @@ from grid import Grid
 
 
 def main():
-    grid = Grid(1000, 3, 4)
+    grid = Grid(1000, 10, 4)
     grid.run()
 
 
