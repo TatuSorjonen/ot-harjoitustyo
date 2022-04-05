@@ -1,29 +1,25 @@
-# Harjoitustyö
+# Ristinolla
 
-## Tehtävät
+Tarvitsee Pyrhon version 3.8 toimiakseen.
 
-#### Viikko 1
-
-[komentorivi.txt](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)
-
-[gitlog.txt](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
-
-
-
-
-
-#### Viikko 2
-
-[Linkki kuvaan](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/laskarit/viikko2/Screenshot%20from%202022-03-29%2019-59-24.png)
-
-
-
-
-
-#### Harjoitustyö
+## Dokumentaatio
 
 [Changelog](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/changelog.md)
 
 [Vaativuusmaarittely](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/vaatimusmaarittely.md)
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/tuntikirjanpito.md)
+
+## Komentorivillä invokella komennot
+
+#### Käynnistyy komennolla 
+
+poetry run invoke start
+
+#### Testaus komennolla
+
+poetry run invoke test
+
+#### Testikattavuusraportti komennolla
+
+poetry run invoke coverage coverage-report
