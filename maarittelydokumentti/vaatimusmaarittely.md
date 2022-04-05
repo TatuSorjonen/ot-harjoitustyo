@@ -17,7 +17,7 @@ Aluksi on vain 10x10 ruudukko mihin voidaan lisätä kahta erityyppistä kuviota
 
 - Aluksi tehdään tietyn kokoinen ruudukko, jolle on ala- ja ylaraja.
 - Pelaajat asettavat vuorotellen kahta erilaista kuviota.
-- Voittaja on se kumpi saa ensin kolmen rivin.
+- Voittaja on se kumpi saa ensin neljän rivin.
 
 **Jatkoideoita jos jää aikaa**
 
