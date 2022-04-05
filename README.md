@@ -13,6 +13,22 @@ Toimii Pygame kirjaston avulla.
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/tuntikirjanpito.md)
 
+## Tarvii asennukseen komennot
+
+Asenna python 3.8
+Asenna poetry
+
+1. Käytä git clone (Github linkki tälle repositiolle) komentoa, jos haluat tämän koodin itsellesi.
+2. poetry init --python "^3.8"
+3. poetry install
+4. poetry shell
+5. poetry add cowsay
+6. poetry add pytest --dev
+7. poetry add coverage --dev
+8. poetry add invoke
+
+Nyt kaikki tarvittava pitäisi olla asennettuna!
+
 ## Komentorivillä invokella komennot
 
 #### Käynnistyy komennolla 
