@@ -6,6 +6,6 @@ Tällä hetkellä ei ole muuta kuin ruudukko tehtynä ja tälle testi, että ei 
 
 2. Testi tehty, lauta ei saa olla liian iso tai pieni.
 
-3. Tehty luokka ja index.py tiedosto, jolla ohjelma aloitetaan.
+3. Tehty luokka ja index.py tiedosto, jolla ohjelma aloitetaan ja lauta alustetaan.
 
 4. Tehty invoke.
