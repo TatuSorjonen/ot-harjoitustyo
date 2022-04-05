@@ -12,7 +12,6 @@ class Grid:
               
         pygame.init()
         self.screen = pygame.display.set_mode([self.grid_size, self.grid_size])
-        #CLOCK = pygame.time.Clock()
         self.screen.fill((self.WHITE))
         
         self.running = True
@@ -25,8 +24,6 @@ class Grid:
                 if event.type == pygame.QUIT:
                     self.running = False
 
-
-            # Flip the display
             pygame.display.flip()
 
         pygame.quit()
