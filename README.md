@@ -15,8 +15,7 @@ Toimii Pygame kirjaston avulla.
 
 ## Tarvii asennukseen komennot
 
-Asenna python 3.8
-Asenna poetry
+Asenna python 3.8 ja poetry
 
 1. Käytä git clone (Github linkki tälle repositiolle) komentoa, jos haluat tämän koodin itsellesi.
 2. poetry init --python "^3.8"
