@@ -1,6 +1,6 @@
 # Ristinolla
 
-Tarvitsee Pyrhon version 3.8 toimiakseen.
+Tarvitsee Python version 3.8 toimiakseen.
 
 ## Dokumentaatio
 
