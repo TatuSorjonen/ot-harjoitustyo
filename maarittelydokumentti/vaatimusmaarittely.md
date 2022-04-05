@@ -2,7 +2,7 @@
 
 **Sovelluksen perimmäinen tarkoitus**
 
-Toimii samalla tavalla kuin normaali ristinolla. Vuorotellen laitetaan kahta eri merkkistä kuviota (en ole vielä päättänyt mitä kuvioita), mutta voittaja on se joka saa ensin neljän rivin (muutin kolmesta neljään käytännöllisistä syistä. Jos on ruudukko, mikä on suurempi kuin 3x3 toinen voittaa aina helposti pelin).
+Toimii samalla tavalla kuin normaali ristinolla. Vuorotellen laitetaan kahta eri merkkistä kuviota (en ole vielä päättänyt mitä kuvioita), mutta voittaja on se joka saa ensin neljän rivin (muutin kolmesta neljään käytännöllisistä syistä. Jos on ruudukko on suurempi kuin 3x3 toinen voittaa aina helposti pelin, jos on kolmensuora).
 Pelaajat voivat myös päättää minkä kokonaisella laudalla he tätä haluavat pelata.
 
 **Käyttäjä**
