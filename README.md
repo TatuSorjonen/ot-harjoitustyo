@@ -2,7 +2,7 @@
 
 HUOM! En kerennyt tekemään laskareita, jotka eivät kuulu harjoitustyöhön viikosta 3. Otan L (0 pistettä) tästä viikosta niiden osalta.
 
-Tarvitsee Python version 3.8 toimiakseen.
+Tarvitsee python version 3.8 toimiakseen.
 Toimii Pygame kirjaston avulla.
 
 ## Dokumentaatio
