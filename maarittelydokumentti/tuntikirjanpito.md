@@ -7,5 +7,6 @@
 | 2.4   |  3   | Pygame kirjastoon tutustuminen ja aloittelemista ruudukon kanssa |
 | 3.4   |  6   | Testien, luokan ja invoken tekemistä |
 | 5.4   |  3   | Virtuaalikoneeseen asetukset ja koodin kopsaus, myös Github kuntoon |
-| 7.4   |  3   | Pylint ja muuten vain Pygame kirjaston opiskelua ja harjoittelua
-| yht   |  18  | | 
+| 7.4   |  3   | Pylint ja muuten vain Pygame kirjaston opiskelua ja harjoittelua |
+| 10.4  |  4   | Pylint testien korjaamista ja netistä tietoja mitä kannattaa seuraavaksi tehdä ristinollan suhteen ja muuten vain Pygame kirjaston opiskelua |
+| yht   |  22  | | 
