@@ -35,3 +35,7 @@ poetry run invoke test
 #### Testikattavuusraportti komennolla
 
 poetry run invoke coverage coverage-report
+
+#### Pylint testaus komennolla
+
+poetry run invoke lint
