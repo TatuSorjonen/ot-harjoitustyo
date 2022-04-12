@@ -10,4 +10,5 @@
 | 7.4   |  3   | Pylint ja muuten vain Pygame kirjaston opiskelua ja harjoittelua |
 | 10.4  |  4   | Pylint testien korjaamista ja netistä tietoja mitä kannattaa seuraavaksi tehdä ristinollan suhteen ja muuten vain Pygame kirjaston opiskelua |
 | 11.4  |  4   | Risti ja nolla ilmestyvät vuorotellen ruudulle, kun painaa hiirellä. Ei ole vielä muuta logiikkaa |
-| yht   |  26  | | 
+| 12.4  |  4   | Merkit eivät ylitä ruutujen määärää + testi tälle. Myös hieman Pylint testin korjaamista ja koodin pientä paranteluu |
+| yht   |  30  | | 
