@@ -15,8 +15,8 @@ Aluksi on vain 10x10 ruudukko mihin voidaan lisätä kahta erityyppistä kuviota
 
 **Ristinollan toiminta**
 
-- Aluksi tehdään tietyn kokoinen ruudukko, jolle on ala- ja ylaraja.
-- Pelaajat asettavat vuorotellen kahta erilaista kuviota.
+- Aluksi tehdään tietyn kokoinen ruudukko, jolle on ala- ja ylaraja (tehty).
+- Pelaajat asettavat vuorotellen kahta erilaista kuviota (tehty, mutta ei vielä toimi tiettyyn kohtaan asettaminen).
 - Voittaja on se kumpi saa ensin neljän rivin.
 
 **Jatkoideoita jos jää aikaa**
