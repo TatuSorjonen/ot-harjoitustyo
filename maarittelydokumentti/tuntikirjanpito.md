@@ -13,5 +13,6 @@
 | 12.4  |  4   | Merkit eivät ylitä ruutujen määärää + testi tälle. Myös hieman Pylint testin korjaamista ja koodin pientä paranteluu |
 | 17.4  |  2   | Laudan teko + tälle voittorivin logiikan aloittelua |
 | 18.4  |  7   | Tehty voittorivi 4:n suoralle. Nyt myös x ja o kuvat menevät oikeille kohdille. Tehty myös laudalle parannuksia. Liittää joko x tai o merkin laudalle ja tarkastaa onko tullut voittoa. Tehty ohjelma loppuu, kun ruutuja ei enää ole jäljellä, sekä pylint virheiden korjaamista ja koodin siistimistä |
-| 19.4  |  3   | Tehty laudasta oma luokka "Board" |
-| yht   |  42  | | 
+| 19.4  |  3   | Tehty laudasta oma luokka "Board" ja pientä koodin paranteluu |
+| 20.4  |  3   | Pylint virheiden korjailua ja koodin selkeyttämistä eri luokkiin ja tietyt toiminnot tietyssä paikassa |
+| yht   |  45  | | 
