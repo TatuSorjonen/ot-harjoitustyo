@@ -7,17 +7,17 @@ Pelaajat voivat myös päättää minkä kokonaisella laudalla he tätä haluava
 
 **Käyttäjä**
 
-Tätä voi pelata kahdella henkilöllä ilman kirjautumista.
+Tätä voi pelata kahdella henkilöllä ilman kirjautumista (tehty).
 
 **Kehittyvyys**
 
-Aluksi on vain 10x10 ruudukko mihin voidaan lisätä kahta erityyppistä kuviota. Myöhemmin pelaajat voivat päättää esimerkiksi ruudukon koon.
+Aluksi on vain 5x5 ruudukko mihin voidaan lisätä kahta erityyppistä kuviota. Myöhemmin pelaajat voivat päättää esimerkiksi ruudukon koon.
 
 **Ristinollan toiminta**
 
 - Aluksi tehdään tietyn kokoinen ruudukko, jolle on ala- ja ylaraja (tehty).
-- Pelaajat asettavat vuorotellen kahta erilaista kuviota (tehty, mutta ei vielä toimi tiettyyn kohtaan asettaminen).
-- Voittaja on se kumpi saa ensin neljän rivin.
+- Pelaajat asettavat vuorotellen kahta erilaista kuviota (tehty).
+- Voittaja on se kumpi saa ensin neljän rivin (tehty).
 
 **Jatkoideoita jos jää aikaa**
 
