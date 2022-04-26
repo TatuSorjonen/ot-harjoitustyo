@@ -20,3 +20,16 @@ Käyttäjä voi painella hiirellä ruutua ja laudalle ilmestyy vuorotellen X ja 
 2. Testi tehty, merkkejä ei saa olla yli laudan koon.
 
 3. Koodia paranneltu pylintin avustuksella (Ei vielä kaikkia).
+
+
+## Viikko 5
+
+Ristinolla on perjaatteessa valmis ja toimii halutulla tavalla. Pelaajat asettavat vuorotellen ristiä ja nollaa laudalle ja voittaja on se kumpi saa ensin neljän rivin samaa merkkiä. Ristikuvan vaihdan edelleen myöhemmin. Peli ei vielä ilmoita voittajaa vaan loppuu heti, kun toisella on rivi tai lauta on täynnä. Arkkitehtuuria en ole vieläkään kerennyt aloittamaan. Olen miettinyt tämän alustavasti paperilla, mutta en vielä ole kerennyt editoimaan tätä githubiin.
+
+1. Ristinollapeli valmis, mutta vielä on paljon parannettavaa ja hiomista.
+
+2. Koodi jaettu muutamaan luokkaan.
+
+3. Testejä tehty jonkin verran.
+
+4. Pylint virheitä 0kpl, jos nämä pygame.init() tyyliset saa kommentoida pois '#pylint: disable=...' tavalla (En keksinyt muuta tapaa hoitaa tätä).
