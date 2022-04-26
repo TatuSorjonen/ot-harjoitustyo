@@ -15,5 +15,6 @@
 | 18.4  |  7   | Tehty voittorivi 4:n suoralle. Nyt myös x ja o kuvat menevät oikeille kohdille. Tehty myös laudalle parannuksia. Liittää joko x tai o merkin laudalle ja tarkastaa onko tullut voittoa. Tehty ohjelma loppuu, kun ruutuja ei enää ole jäljellä, sekä pylint virheiden korjaamista ja koodin siistimistä |
 | 19.4  |  3   | Tehty laudasta oma luokka "Board" ja pientä koodin paranteluu |
 | 20.4  |  3   | Pylint virheiden korjailua ja koodin selkeyttämistä eri luokkiin ja tietyt toiminnot tietyssä paikassa |
-| 22.4  |  2   | Muutama metodi tehty uudella tavalla ja pylint virheiden korjailu 10/10. Ei ole tässä vaiheessa virheitä enää.
-| yht   |  47  | | 
+| 22.4  |  2   | Muutama metodi tehty uudella tavalla ja pylint virheiden korjailu 10/10. Ei ole tässä vaiheessa virheitä enää |
+| 25.4  |  3   | Testien tekemistä ja kommennoinnin aloittamista koodiin |
+| yht   |  50  | | 
