@@ -1,9 +1,9 @@
-from grid import Grid
+from tictactoe import TicTacToe
 
 
 def main():
-    grid = Grid(1000, 10, 4)
-    grid.run()
+    my_tictactoe = TicTacToe(1000, 5)
+    my_tictactoe.run()
 
 
 if __name__ == "__main__":
