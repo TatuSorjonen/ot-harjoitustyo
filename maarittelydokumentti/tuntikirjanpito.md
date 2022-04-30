@@ -17,4 +17,5 @@
 | 20.4  |  3   | Pylint virheiden korjailua ja koodin selkeyttämistä eri luokkiin ja tietyt toiminnot tietyssä paikassa |
 | 22.4  |  2   | Muutama metodi tehty uudella tavalla ja pylint virheiden korjailu 10/10. Ei ole tässä vaiheessa virheitä enää |
 | 25.4  |  3   | Testien tekemistä ja kommennoinnin aloittamista koodiin |
-| yht   |  50  | | 
+| 30.4  |  1   | Kommentointi koodiin |
+| yht   |  51  | | 
