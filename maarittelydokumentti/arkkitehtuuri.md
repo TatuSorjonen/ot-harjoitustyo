@@ -24,6 +24,7 @@
           DRAW
           FIRST_WIN
           SECOND_WIN
+      }
 ```
 
 
