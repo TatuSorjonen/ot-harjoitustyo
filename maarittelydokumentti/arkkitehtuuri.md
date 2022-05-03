@@ -19,7 +19,7 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
  classDiagram
       TicTacToe --> TicTacToeBoard
       TicTacToe --> Result
-      TicTacToeBoard --> Board
+      TicTacToeBoard 'perii luokan Board' --> Board
       TicTacToeBoard --> Result
       
       class TicTacToe{
