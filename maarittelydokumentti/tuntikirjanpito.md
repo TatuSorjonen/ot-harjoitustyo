@@ -19,4 +19,5 @@
 | 25.4  |  3   | Testien tekemistä ja kommennoinnin aloittamista koodiin |
 | 30.4  |  1   | Kommentointi koodiin |
 | 2.5   |  2   | Peli ilmoittaa voittajan tai tasapelin |
-| yht   |  51  | | 
+| 3.5   |  5   | Vuorot ovat näkyvillä. Arkkitehtuurin ja käyttöohjeen tekoon tutustuminen ja pieni aloittaminen niihin |
+| yht   |  56  | | 
