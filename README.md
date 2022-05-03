@@ -3,6 +3,10 @@
 Tarvitsee python version 3.8 toimiakseen.
 Toimii Pygame kirjaston avulla.
 
+## Lataus
+
+[Lataa ohjelma tästä itsellesi]()
+
 ## Dokumentaatio
 
 [Changelog](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/changelog.md)
@@ -19,7 +23,7 @@ Toimii Pygame kirjaston avulla.
 
 Asenna python 3.8
 
-1. Käytä git clone (Github linkki tälle repositiolle) komentoa, jos haluat tämän koodin itsellesi.
+1. Käytä git clone (Github linkki tälle repositiolle) komentoa, jos haluat tämän koodin itsellesi tai lataa tämä Lataus kohdasta.
 2. poetry install
 
 Nyt kaikki tarvittava pitäisi olla asennettuna!
