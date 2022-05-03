@@ -11,7 +11,7 @@ Toimii Pygame kirjaston avulla.
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/tuntikirjanpito.md)
 
-[Käyttöohje]
+[Käyttöohje](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/kayttoohje.md)
 
 [Arkkitehtuuri]
 
