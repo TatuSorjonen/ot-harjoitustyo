@@ -17,9 +17,11 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
 
 ```mermaid
  classDiagram
-      TicTacToe --> Board
-      Board --> TicTacToeBoard
-      Board --> Result
+      TicTacToe --> TicTacToeBoard
+      TicTacToe --> Result
+      TicTacToeBoard --> Board
+      TicTacToeBoard --> Result
+      
       class TicTacToe{
           board
           grid_size
