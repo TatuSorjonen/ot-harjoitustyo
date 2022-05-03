@@ -1,21 +1,29 @@
 ```mermaid
  classDiagram
-      TicTacToe "*" --> "1"  Board
+      TicTacToe --> Board
       Board --> TicTacToeBoard
+      Board --> Result
       class TicTacToe{
-          username
-          password
+          board
+          grid_size
+          num_squares
+          square_size
       }
       class Board{
-          id
-          content
-          done
+          num_squares
+          board
+          result
       }
       class TicTacToeBoard{
-          id
-          content
-          done
+          board
+          whose_turn
+          winner
       }
+      class Result{
+          ONGOING
+          DRAW
+          FIRST_WIN
+          SECOND_WIN
 ```
 
 
