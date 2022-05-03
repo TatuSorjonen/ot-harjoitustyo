@@ -11,6 +11,10 @@ Toimii Pygame kirjaston avulla.
 
 [Tuntikirjanpito](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/tuntikirjanpito.md)
 
+[Käyttöohje]
+
+[Arkkitehtuuri]
+
 ## Asennukseen vaadittavat komennot
 
 Asenna python 3.8
