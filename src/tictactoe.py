@@ -29,13 +29,7 @@ class TicTacToe:
     def run(self):
         running = True
 
-        #self.screen.fill((200,200,200))
-        #largeFont = pygame.font.SysFont('comicsans', 80)
-        #currentScore = largeFont.render(self.board.winner,1,(0,0,0))
-        #self.screen.blit(currentScore, (self.grid_size/2 - currentScore.get_width()/2, 240))
-        #pygame.display.update()
-        #while True:
-        #    continue
+        # Draws grid and whose turn first
         self.draw_grid()
         self.draw_status()
 
@@ -44,12 +38,10 @@ class TicTacToe:
 
                 # If button is pressed draw x or o picture
                 if event.type == pygame.MOUSEBUTTONDOWN: # pylint: disable=no-member
-                    print(event.pos[0])
                     if event.pos[0] > self.grid_size or event.pos[1] > self.grid_size:
                         continue
-                    else:
-                        self.draw_xo(event.pos[0], event.pos[1])
-                        self.draw_status()
+                    self.draw_xo(event.pos[0], event.pos[1])
+                    self.draw_status()
 
                 # If game ends, loop ends
                 if self.board.result != Result.ONGOING:
@@ -96,7 +88,7 @@ class TicTacToe:
             for y_int in range(0, self.grid_size, self.square_size):
                 rect = pygame.Rect(x_int, y_int, self.square_size, self.square_size)
                 pygame.draw.rect(self.screen, black, rect, 1)
-                
+
     def draw_status(self):
         if self.board.whose_turn == 1:
             whose_turn = "X vuoro"
@@ -105,7 +97,7 @@ class TicTacToe:
         font = pygame.font.SysFont('comicsans', 80)
         text = font.render(whose_turn, 1, (0, 0, 0))
         self.screen.fill((200, 200, 200), (0, self.grid_size, self.grid_size + 100, 100))
-        text_rect = text.get_rect(center =(self.grid_size / 2, self.grid_size+50))
+        text_rect = text.get_rect(center=(self.grid_size/2, self.grid_size + 50))
         self.screen.blit(text, text_rect)
         pygame.display.update()
 
