@@ -18,4 +18,5 @@
 | 22.4  |  2   | Muutama metodi tehty uudella tavalla ja pylint virheiden korjailu 10/10. Ei ole tässä vaiheessa virheitä enää |
 | 25.4  |  3   | Testien tekemistä ja kommennoinnin aloittamista koodiin |
 | 30.4  |  1   | Kommentointi koodiin |
+| 2.5   |  2   | Peli ilmoittaa voittajan tai tasapelin |
 | yht   |  51  | | 
