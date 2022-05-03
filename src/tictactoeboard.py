@@ -9,7 +9,7 @@ class TicTacToeBoard(Board):
         super().__init__(num_squares)
         self.board = [['-' for i in range(num_squares)] for j in range(num_squares)]
         self.whose_turn = 1
-        self.winner = 'Draw'
+        self.winner = 'Tasapeli'
 
     # Add x into table
     def add_x(self, x_square, y_square):
