@@ -1,11 +1,16 @@
 ```mermaid
  classDiagram
-      Todo "*" --> "1" User
-      class User{
+      TicTacToe -->  Board --> TicTacToeBoard
+      class TicTacToe{
           username
           password
       }
-      class Todo{
+      class Board{
+          id
+          content
+          done
+      }
+      class TicTacToeBoard{
           id
           content
           done
