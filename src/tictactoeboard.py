@@ -39,7 +39,7 @@ class TicTacToeBoard(Board):
         #Debug: remove later
         self.print_board()
 
-    # Function for check if someone wins or not
+    # Function for, check if someone wins or not
     def check_situation(self):
 
         # Goes through the whole table

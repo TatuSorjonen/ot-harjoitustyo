@@ -45,7 +45,7 @@ class TicTacToe:
                 if event.type == pygame.MOUSEBUTTONDOWN: # pylint: disable=no-member
                     self.draw_xo(event.pos[0], event.pos[1])
 
-                # If game ends anyway for loop ends
+                # If game ends, loop ends
                 if self.board.result != Result.ONGOING:
                     self.screen.fill((200, 200, 200))
                     font = pygame.font.SysFont('comicsans', 80)
