@@ -40,7 +40,7 @@ poetry run invoke test
 
 #### Testikattavuusraportti komennolla
 
-poetry run invoke coverage coverage-report
+poetry run invoke coverage-report
 
 #### Pylint testaus komennolla
 
