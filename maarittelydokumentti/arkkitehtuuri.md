@@ -1,13 +1,9 @@
 ```mermaid
 sequenceDiagram
-  actor User
-  participant UI
-  participant TodoService
-  participant UserRepository
-  User->>UI: click "Login" button
-  UI->>TodoService: login("kalle", "kalle123")
-  TodoService->>UserRepository: find_by_username("kalle")
-  UserRepository-->>TodoService: user
-  TodoService-->>UI: user
+  participant ui
+  participant board
+  participant tictactoeboard
+  ui->> board: Testi
+  board->>tictactoeboard: Testi2
   UI->UI: show_todos_view()
 ```
