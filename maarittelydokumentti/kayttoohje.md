@@ -1,6 +1,6 @@
 ## Käyttöohje
 
-Voit ladata uusimman version [tästä](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/viikko5)
+Voit ladata uusimman version [tästä](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/viikko6)
 
 #### Tarvittavat komennot komentorivillä
 
