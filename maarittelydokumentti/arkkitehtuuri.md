@@ -1,3 +1,8 @@
+## Käyttöliittymä
+
+Sovellus avaa pygamen avulla ikkunan pelille ja pelin loputtua ilmoittaa voittajan tai tasapelin
+
+
 ```mermaid
  classDiagram
       TicTacToe --> Board
