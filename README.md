@@ -13,7 +13,7 @@ Toimii Pygame kirjaston avulla.
 
 [Käyttöohje](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/kayttoohje.md)
 
-[Arkkitehtuuri]
+[Arkkitehtuuri](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/arkkitehtuuri.md)
 
 ## Asennukseen vaadittavat komennot
 
