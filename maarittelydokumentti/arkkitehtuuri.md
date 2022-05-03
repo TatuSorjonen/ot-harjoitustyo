@@ -53,6 +53,6 @@ sequenceDiagram
   participant tictactoe
   participant board
   participant tictactoeboard
-  tictactoe->> board: Testi
-  board->>tictactoeboard: Testi2
+  tictactoe->> board: Foo
+  board->>tictactoeboard: Foobar
 ```
