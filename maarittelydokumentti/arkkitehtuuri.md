@@ -31,9 +31,9 @@
 
 ```mermaid
 sequenceDiagram
-  participant ui
+  participant tictactoe
   participant board
   participant tictactoeboard
-  ui->> board: Testi
+  tictactoe->> board: Testi
   board->>tictactoeboard: Testi2
 ```
