@@ -1,6 +1,8 @@
 from enum import Enum
 
 class Result(Enum):
+
+    # All game variables, which tells what is games situation right now
     ONGOING = 1
     DRAW = 2
     FIRST_WIN = 3
@@ -9,6 +11,8 @@ class Result(Enum):
 class Board:
 
     def __init__(self, num_squares):
+
+        # Class variables
         self.num_squares = num_squares
         self.board = [[]]
         self.result = Result.ONGOING

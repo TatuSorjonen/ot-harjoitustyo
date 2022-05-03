@@ -25,16 +25,38 @@ class TicTacToe:
         pygame.init() # pylint: disable=no-member
         self.screen = pygame.display.set_mode([self.grid_size, self.grid_size])
 
+    # Game runs while this function is going on
     def run(self):
         running = True
+
+        #self.screen.fill((200,200,200))
+        #largeFont = pygame.font.SysFont('comicsans', 80)
+        #currentScore = largeFont.render(self.board.winner,1,(0,0,0))
+        #self.screen.blit(currentScore, (self.grid_size/2 - currentScore.get_width()/2, 240))
+        #pygame.display.update()
+        #while True:
+        #    continue
+
         self.draw_grid()
         while running:
             for event in pygame.event.get():
+
+                # If button is pressed draw x or o picture
                 if event.type == pygame.MOUSEBUTTONDOWN: # pylint: disable=no-member
                     self.draw_xo(event.pos[0], event.pos[1])
-                if event.type == pygame.QUIT or self.board.result != Result.ONGOING: # pylint: disable=no-member
+
+                # If game ends anyway for loop ends
+                if self.board.result != Result.ONGOING:
+                    self.screen.fill((200, 200, 200))
+                    font = pygame.font.SysFont('comicsans', 80)
+                    who_wins = font.render(self.board.winner, 1, (0, 0, 0))
+                    self.screen.blit(who_wins, (self.grid_size/2 - who_wins.get_width()/2, 240))
+                    pygame.display.update()
+                if event.type == pygame.QUIT: # pylint: disable=no-member
                     running = False
+
             pygame.display.flip()
+
         pygame.quit() # pylint: disable=no-member
 
     def draw_xo(self, mouse_x, mouse_y):
