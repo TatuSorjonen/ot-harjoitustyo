@@ -33,3 +33,16 @@ Ristinolla on periaatteessa valmis ja toimii halutulla tavalla. Pelaajat asettav
 3. Testejä tehty jonkin verran.
 
 4. Pylint virheitä 0kpl, jos nämä pygame.init() tyyliset saa kommentoida pois '#pylint: disable=...' tavalla (En keksinyt muuta tapaa hoitaa tätä).
+
+
+## Viikko 6
+
+Ristinollassa on nyt näkyvillä kumpi on vuorossa. Voittaja tai tasapeli näkyy lopussa kun peli päättyy
+
+1. Tehty vuorot näkyville ja voittaja.
+
+2. Pylint virheitä yksi kappale. Tein koodin niin myöhässä, että en kerennyt korjaamaan tätä.
+
+3. Arkkitehtuuri aloitettu, mutta ei ole ollenkaan hyvä vielä.
+
+4. Käyttöohjeet aloitettu
