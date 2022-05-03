@@ -1,6 +1,7 @@
 ```mermaid
  classDiagram
       TicTacToe "*" --> "1"  Board
+      Board --> TicTacToeBoard
       class TicTacToe{
           username
           password
