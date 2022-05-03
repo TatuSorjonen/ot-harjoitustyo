@@ -23,7 +23,7 @@ class TicTacToe:
 
         # Draw pygame window
         pygame.init() # pylint: disable=no-member
-        self.screen = pygame.display.set_mode([self.grid_size, self.grid_size])
+        self.screen = pygame.display.set_mode([self.grid_size, self.grid_size + 100])
 
     # Game runs while this function is going on
     def run(self):
@@ -36,14 +36,20 @@ class TicTacToe:
         #pygame.display.update()
         #while True:
         #    continue
-
         self.draw_grid()
+        self.draw_status()
+
         while running:
             for event in pygame.event.get():
 
                 # If button is pressed draw x or o picture
                 if event.type == pygame.MOUSEBUTTONDOWN: # pylint: disable=no-member
-                    self.draw_xo(event.pos[0], event.pos[1])
+                    print(event.pos[0])
+                    if event.pos[0] > self.grid_size or event.pos[1] > self.grid_size:
+                        continue
+                    else:
+                        self.draw_xo(event.pos[0], event.pos[1])
+                        self.draw_status()
 
                 # If game ends, loop ends
                 if self.board.result != Result.ONGOING:
@@ -90,6 +96,18 @@ class TicTacToe:
             for y_int in range(0, self.grid_size, self.square_size):
                 rect = pygame.Rect(x_int, y_int, self.square_size, self.square_size)
                 pygame.draw.rect(self.screen, black, rect, 1)
+                
+    def draw_status(self):
+        if self.board.whose_turn == 1:
+            whose_turn = "X vuoro"
+        else:
+            whose_turn = "O vuoro"
+        font = pygame.font.SysFont('comicsans', 80)
+        text = font.render(whose_turn, 1, (0, 0, 0))
+        self.screen.fill((200, 200, 200), (0, self.grid_size, self.grid_size + 100, 100))
+        text_rect = text.get_rect(center =(self.grid_size / 2, self.grid_size+50))
+        self.screen.blit(text, text_rect)
+        pygame.display.update()
 
     def print_message(self, message):
         print(message)
