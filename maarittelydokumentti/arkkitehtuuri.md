@@ -12,7 +12,7 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
 - Luokka TicTacToeBoard on Board luokan aliluokka ja on ristinolla peli, joka omaa kaikki ristinollalle tyypilliset piirteet
 - Luokka Result pitää yllä missä vaiheessa peliä ollaan menossa
 
-#### Sekvenssikaavio luokista ja niiden muuttujista
+#### Sekvenssikaavio luokista ja niiden luokkamuuttujista
 
 
 ```mermaid
