@@ -21,5 +21,5 @@
 | 2.5   |  2   | Peli ilmoittaa voittajan tai tasapelin |
 | 3.5   |  5   | Vuorot ovat näkyvillä. Arkkitehtuurin ja käyttöohjeen tekoon tutustuminen ja pieni aloittaminen niihin |
 | 4.5   |  4   | Tkinter kirjasto otettu käyttöön pelin aloitusruuduksi ja tähän tustuminen |
-| 5.5   |  4   | Aloitusruudulla toimivat pelin aloitus ja lopetus, sekä pelin päätyttyä avaa aloitusruudun uudelleen |
+| 5.5   |  4   | Aloitusruudulla toimivat pelin aloitus ja lopetus, sekä pelin päätyttyä avaa aloitusruudun uudelleen. Aloitusruudusta tehty myös oma luokka StartMenu |
 | yht   |  64  | | 
