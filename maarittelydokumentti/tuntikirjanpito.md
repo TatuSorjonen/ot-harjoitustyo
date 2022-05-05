@@ -20,4 +20,6 @@
 | 30.4  |  1   | Kommentointi koodiin |
 | 2.5   |  2   | Peli ilmoittaa voittajan tai tasapelin |
 | 3.5   |  5   | Vuorot ovat näkyvillä. Arkkitehtuurin ja käyttöohjeen tekoon tutustuminen ja pieni aloittaminen niihin |
-| yht   |  56  | | 
+| 4.5   |  4   | Tkinter kirjasto otettu käyttöön pelin aloitusruuduksi ja tähän tustuminen |
+| 5.5   |  4   | Aloitusruudulla toimivat pelin aloitus ja lopetus, sekä pelin päätyttyä avaa aloitusruudun uudelleen |
+| yht   |  64  | | 
