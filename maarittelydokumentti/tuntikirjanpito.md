@@ -22,5 +22,5 @@
 | 3.5   |  5   | Vuorot ovat näkyvillä. Arkkitehtuurin ja käyttöohjeen tekoon tutustuminen ja pieni aloittaminen niihin |
 | 4.5   |  4   | Tkinter kirjasto otettu käyttöön pelin aloitusruuduksi ja tähän tustuminen |
 | 5.5   |  4   | Aloitusruudulla toimivat pelin aloitus ja lopetus, sekä pelin päätyttyä avaa aloitusruudun uudelleen. Aloitusruudusta tehty myös oma luokka StartMenu |
-| 7.5   |  5   | Yritin keksiä ja löytää netistä miten UI:ta voisi testata. En kuitenkaan löytänyt miten voisi testata kunnolla, joten kutsun vain funktioita ja testaan, että toimii |
-| yht   |  64  | | 
+| 7.5   |  4   | Yritin keksiä ja löytää netistä miten UI:ta voisi testata. En kuitenkaan löytänyt miten voisi testata kunnolla, joten kutsun vain funktioita ja testaan, että toimii |
+| yht   |  68  | | 
