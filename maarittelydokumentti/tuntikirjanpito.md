@@ -23,4 +23,6 @@
 | 4.5   |  4   | Tkinter kirjasto otettu käyttöön pelin aloitusruuduksi ja tähän tustuminen |
 | 5.5   |  4   | Aloitusruudulla toimivat pelin aloitus ja lopetus, sekä pelin päätyttyä avaa aloitusruudun uudelleen. Aloitusruudusta tehty myös oma luokka StartMenu |
 | 7.5   |  4   | Yritin keksiä ja löytää netistä miten UI:ta voisi testata. En kuitenkaan löytänyt miten voisi testata kunnolla, joten kutsun vain funktioita ja testaan, että toimii |
-| yht   |  68  | | 
+| 9.5   |  3   | Pelaajien nimeäminen tehty |
+| 11.5  |  2   | Docstring dokumeentaatio tehty |
+| yht   |  73  | | 
