@@ -10,7 +10,7 @@ Ohjelma tarvitsee python 3.8 version toimiakseen
 2. poetry run invoke start
 3. Ruudulle käynnistyy ohjelma
 
-#### Ohjelman käynnistäminen
+#### Ohjelman käynnistettyä
 
 Kun ohjelma käynnistetään syntyy aloitusruutu mistä valitaan laudan koko, pelaajien nimet ja aloitetaanko peli vai lopetetaanko.
 
