@@ -22,8 +22,8 @@ Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen kummall
 
 ![](./Kuvat/Virhenimi.png)
 
-Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä painamalla 'Aloita peli' painikkeesta
-Pelille aukee ikkuna:
+Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä, painamalla 'Aloita peli' painikkeesta
+pelille aukee ikkuna:
 
 ![](./Kuvat/Ristinolla.png)
 
