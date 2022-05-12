@@ -9,7 +9,7 @@ class TestKassapaate(unittest.TestCase):
 
     def test_onko_olemassa(self):
         self.assertEqual(self.kassapaate.kassassa_rahaa, 100000)
-        self.assertEqual(self.kassapaate.edulliset + self.kassapaate.maukkaat, 0) 
+        self.assertEqual(self.kassapaate.edulliset + self.kassapaate.maukkaat, 0)
 
     def test_toimiiko_kateinen(self):
         self.kassapaate.syo_edullisesti_kateisella(240)

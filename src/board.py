@@ -16,7 +16,3 @@ class Board:
         self.num_squares = num_squares
         self.board = [[]]
         self.result = Result.ONGOING
-
-    def print_board(self):
-        for i in self.board:
-            print(i)
