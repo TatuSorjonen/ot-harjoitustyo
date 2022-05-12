@@ -22,6 +22,9 @@ Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen kummall
 
 
 
+Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä painamalla aloita
+
+
 #### Ristinollan idea
 
 1. Molemmat pelaajat laittavat vuorotellen ristiä ja nollaa.
