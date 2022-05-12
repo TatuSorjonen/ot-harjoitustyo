@@ -12,7 +12,7 @@ Ohjelma tarvitsee python 3.8 version toimiakseen
 
 #### Ohjelman käynnistäminen
 
-![](./images_xo/Aloitusruutu.png)
+![](./Kuvat/Aloitusruutu.png)
 
 #### Ristinollan idea
 
