@@ -25,5 +25,5 @@
 | 7.5   |  4   | Yritin keksiä ja löytää netistä miten UI:ta voisi testata. En kuitenkaan löytänyt miten voisi testata kunnolla, joten kutsun vain funktioita ja testaan, että toimii |
 | 9.5   |  3   | Pelaajien nimeäminen tehty |
 | 11.5  |  2   | Docstring dokumeentaatio tehty |
-| 12.5  |  8   | Huomasin koodissa olevan paljon kaikennäköistä virhettä, joka tuotti sen, että jouduin tekemään paljon uudestaan. Tähän meni aikaa ja testejä joutui tehdä myös lisää |
+| 12.5  |  8   | Huomasin koodissa olevan paljon kaikennäköisiä virheitä, joka tuotti sen, että jouduin tekemään paljon uudestaan. Tähän meni aikaa ja testejä joutui tehdä myös lisää |
 | yht   |  81  | | 
