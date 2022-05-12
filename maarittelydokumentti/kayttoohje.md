@@ -22,7 +22,18 @@ Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen kummall
 
 
 
-Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä painamalla aloita
+Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä painamalla 'Aloita peli' painikkeesta
+Pelille aukee ikkuna:
+
+
+Tässä ikkunassa voidaan vuorotellen painella ruutuja (Vuoro vaihtuu automaattisesti), kunnes toinen pelaaja saa neljän suoran tai lauta menee täyteen.
+
+Jos toinen pelaaja voittaa peli palautuu aloitusvalikkoon ja ilmoittaa tuloksen:
+
+
+Myös tasapelistä tekee saman:
+
+Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta
 
 
 #### Ristinollan idea
