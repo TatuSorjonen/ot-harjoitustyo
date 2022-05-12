@@ -2,11 +2,17 @@
 
 Voit ladata uusimman version [tästä](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/viikko6)
 
+Ohjelma tarvitsee python 3.8 version toimiakseen
+
 #### Tarvittavat komennot komentorivillä
 
 1. poetry install
 2. poetry run invoke start
 3. Ruudulle käynnistyy ohjelma
+
+#### Ohjelman käynnistäminen
+
+![](./src/images_xo/Aloitusruutu.png)
 
 #### Ristinollan idea
 
