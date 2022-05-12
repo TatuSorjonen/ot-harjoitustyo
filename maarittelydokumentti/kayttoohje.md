@@ -18,7 +18,7 @@ Kun ohjelma käynnistetään syntyy aloitusruutu mistä valitaan laudan koko, pe
 
 Kuvan mukaisesti voit valita laudan kooksi 5-30 ruutua ja vain 1-10 merkkisen nimen pelaajille.
 
-Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen. Ilmoittaa ohjelma tästä seuraavalla tavalla:
+Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen kummalle tahansa. Ilmoittaa ohjelma tästä seuraavalla tavalla:
 
 
 
