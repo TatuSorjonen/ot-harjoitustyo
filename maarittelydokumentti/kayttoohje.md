@@ -40,13 +40,3 @@ Myös tasapelistä tekee saman:
 ![](./Kuvat/Tasapeli.png)
 
 Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta
-
-
-#### Ristinollan idea
-
-1. Molemmat pelaajat laittavat vuorotellen ristiä ja nollaa.
-2. Pelaaja joka saa ensin neljänsuoran voittaa ja ruudulle ilmestyy voittaja
-3. Jos peli päättyy tasan ohjelma ilmoittaa tasapelistä
-
-
-Jos haluat pelata peliä uudestaan voit sulkea pelin oikealla ylhäällä olevasta raksista ja ajaa ohjelman uudestaan komennolla poetry run invoke start
