@@ -31,12 +31,14 @@ Tässä ikkunassa voidaan vuorotellen painella ruutuja (Vuoro vaihtuu automaatti
 
 ![](./Kuvat/Toisenvuoro.png)
 
-Jos toinen pelaaja voittaa peli palautuu aloitusvalikkoon ja ilmoittaa tuloksen:
+Jos toinen pelaaja voittaa, peli palautuu aloitusvalikkoon ja ilmoittaa tuloksen:
 
 ![](./Kuvat/Voittaja.png)
 
 Myös tasapelistä tekee saman:
 
 ![](./Kuvat/Tasapeli.png)
+
+Voit aloittaa pelin niin monta kertaa kuin jaksat
 
 Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta
