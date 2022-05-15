@@ -96,7 +96,7 @@ sequenceDiagram
   participant StartMenu
   index.py->> TicTacToe: Create(TicTacToe)
   TicTacToe->> StartMenu: Create(StartMenu)
-  StartMenu->> TicTacToe: Send(information)
-  TicTacToe->> TicTacToe: Check(information)
-  TicTacToe->> StartMenu: Send(fail information), if player name too long or small
+  StartMenu->> TicTacToe: Send(number of squares, player names)
+  TicTacToe->> TicTacToe: Check(number of squares, player names)
+  TicTacToe->> StartMenu: Send(fail player names), if player name too long or small
 ```
