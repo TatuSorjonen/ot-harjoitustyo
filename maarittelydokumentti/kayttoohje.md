@@ -36,7 +36,7 @@ Jos painat 'Tallenna peli' nappulasta sinulle ilmestyy ruutu missä voit tallent
 
 ![](./Kuvat/Tallennus.png)
 
-Jos taas haluat ladata pelin voit painaa 'Lataa peli kohdasta ja sinulle ilmestyy ruutu mistä voit valita jonkin .ttt tyyppisen tiedoston
+Jos taas haluat ladata pelin voit painaa 'Lataa peli' nappulasta ja sinulle ilmestyy ruutu mistä voit valita jonkin .ttt tyyppisen tiedoston
 
 ![](./Kuvat/Tallennus.png)
 
