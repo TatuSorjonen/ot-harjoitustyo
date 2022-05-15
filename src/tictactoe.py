@@ -18,7 +18,7 @@ class TicTacToe:
         screen: Pygame window
         x_image: X image for player 1
         o_image: O image for player 2
-        square_size: How big is one square in pixels (grid size / number of squares). 
+        square_size: How big is one square in pixels (grid size / number of squares).
         grid_size: Pygame window size in pixels
         result_text: Result of the game
         whose_turn: Whose turn is it (text message)
@@ -26,8 +26,8 @@ class TicTacToe:
         grid color: Color of grid lines
         bottom_height: How long is the window below the grid (Status window and buttons)
         buttom_width: How long is buttons width
-        running: Is game still running or not 
-     """
+        running: Is game still running or not
+    """
 
     def __init__(self):
         """Class constructor, which initializes the variables
@@ -51,7 +51,7 @@ class TicTacToe:
         self.running = True
 
     def run(self):
-        """Function where game runs in infinite loop 
+        """Function where game runs in infinite loop
         until game ends or player press quit
         """
 
@@ -116,7 +116,7 @@ class TicTacToe:
     def get_game_variables(self):
         """Show Tkinter menu and set num_squares, player1 and player2 to what user gave it in
         Tkinter window
-        
+
         Returns:
             Number of squares in board, player 1 name and player 2 name
         """
@@ -147,7 +147,7 @@ class TicTacToe:
 
     def set_game(self):
         """Sets game variables right with right num_squares and then calls:
-        - draw_grid function which draws board. 
+        - draw_grid function which draws board.
         - draw_status function which draws whose turn is it (first time player 1)
         - draw_buttons function which draws save, load and quit buttons
         """
@@ -192,7 +192,7 @@ class TicTacToe:
         self.draw_status()
 
     def update_board(self):
-        """Draw empty grid and then draw all x and o to the grid. 
+        """Draw empty grid and then draw all x and o to the grid.
         Function gets x and o positions from the tictactoeboard data structure"""
 
         self.draw_grid()
@@ -269,13 +269,13 @@ class TicTacToe:
 
     def draw_one_button(self, button_text, button_coordinates, button_center):
         """Auxiliary function for drawing buttons
-        
+
         Args:
             button_text: Button text
             button_coordinates: Where to draw button and what are buttons width and height
             button_center: Where is center of button
         """
-    
+
         button_font = 'arial'
         button_font_size = 24
         button_color = (150, 150, 150)
@@ -285,7 +285,7 @@ class TicTacToe:
         font = pygame.font.SysFont(button_font, button_font_size)
         text = font.render(button_text, 1, font_color)
         pygame.draw.rect(self.screen,(button_color), button_coordinates)
-        
+
         # Draws button borders and text
         pygame.draw.rect(self.screen, border_color, pygame.Rect(button_coordinates), 4, 0)
         text_rect = text.get_rect(center=button_center)
@@ -293,7 +293,7 @@ class TicTacToe:
 
     def check_button_pressed(self, mouse_x, mouse_y):
         """Check if user press one of buttons
-        
+
         Args:
             mouse_x: Check x coordinate which position user clicked with mouse
             mouse_y: Check y coordinate which position user clicked with mouse
@@ -354,7 +354,7 @@ class TicTacToe:
 
     def print_message(self, message, window_title):
         """Function that print message if needed. Uses Tkinter popup window
-        
+
         Args:
             message: Message that is shown to user
             window_title: Window title
