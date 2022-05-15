@@ -91,7 +91,7 @@ Epäonnistuminen on estetty try-except:llä, jotta ohjelma ei kaadu virheeseen, 
 
 ```mermaid
 sequenceDiagram
-  actor index.py
+  participant index.py
   participant TicTacToe
   participant StartMenu
   index.py->> TicTacToe: Create(TicTacToe)
