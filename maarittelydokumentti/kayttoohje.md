@@ -40,7 +40,7 @@ Jos taas haluat ladata pelin voit painaa 'Lataa peli' nappulasta ja sinulle ilme
 
 ![](./Kuvat/Tallennus.png)
 
-Peli ilmoittaa, jos lataus ei onnistu tai onnistuu kyseisellä tavalla (esimerkissä tallennuksen epäonnistuminen):
+Peli ilmoittaa, jos lataus ei onnistu tai onnistuu (esimerkissä tallennuksen epäonnistuminen):
 
 ![](./Kuvat/Tallennus_epaonnistui.png)
 
