@@ -155,3 +155,7 @@ sequenceDiagram
   TicTacToe-->> index.py: If number of squares = 0
 ```
 Pelin voi lopettaa, joko painamalla start menun nappia 'Poistu' tai pygame ikkunassa kohdasta 'Lopeta peli'.
+
+## Ohjelmaan jääneet heikkoudet
+
+Tkinter ei toimi kunnolla pygamen kanssa. Tkinter ikkunan avautuessa pygame kirjasto tapahtumakäsittelijä saattaa jossain tilanteessa luulla, että ohjema ei enää vastaa ja ilmoittaa tästä. Ilmoituksesta pääsee eroon painamalla 'Wait' tai 'Force Quit' painikkeita
