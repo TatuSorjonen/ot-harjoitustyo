@@ -1,7 +1,15 @@
-from board import Board
-from board import Result
+from enum import Enum
 
-class TicTacToeBoard(Board):
+class Result(Enum):
+    """Constants, that tell game situation
+    """
+
+    ONGOING = 1
+    DRAW = 2
+    FIRST_WIN = 3
+    SECOND_WIN = 4
+
+class TicTacToeBoard():
     """Class that manages the properties of a tictactoe game. Inherits the class Board
 
     Attributes:
@@ -11,18 +19,22 @@ class TicTacToeBoard(Board):
         winner: Who wins at end
     """
 
-    def __init__(self, num_squares):
+    def __init__(self, num_squares, player1, player2):
         """Class contsructor which set all attributes at starting position
 
         Args:
             num_squares: how big is tictactoe board. Row and column
 
         """
-        super().__init__(num_squares)
+
+        self.num_squares = num_squares
+        self.board = [[]]
+        self.result = Result.ONGOING
+        self.player1 = player1
+        self.player2 = player2
         self.board = [['-' for i in range(num_squares)] for j in range(num_squares)]
         self.whose_turn = 1
 
-    # Add x into table
     def add_x(self, x_square, y_square):
         """Add x into table after checking if is taken or not. Then switch
         whose turn is it. At the end check if someone wins
@@ -126,3 +138,7 @@ class TicTacToeBoard(Board):
 
         if not any('-' in x for x in self.board) and self.result == Result.ONGOING:
             self.result = Result.DRAW
+
+    def print_board(self):
+        for i in self.board:
+            print(i)

@@ -10,9 +10,13 @@ class Result(Enum):
 
 class Board:
 
-    def __init__(self, num_squares):
+    def __init__(self, num_squares, player1, player2):
 
         # Class variables
         self.num_squares = num_squares
         self.board = [[]]
         self.result = Result.ONGOING
+        self.player1 = player1
+        self.player2 = player2
+        self.board = [['-' for i in range(num_squares)] for j in range(num_squares)]
+        self.whose_turn = 1
