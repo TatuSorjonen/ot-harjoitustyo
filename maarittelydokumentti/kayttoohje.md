@@ -1,6 +1,6 @@
 ## Käyttöohje
 
-Voit ladata uusimman version [tästä](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/viikko6)
+Voit ladata uusimman version [tästä](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/v1.0.0)
 
 Ohjelma tarvitsee python 3.8 version toimiakseen
 
