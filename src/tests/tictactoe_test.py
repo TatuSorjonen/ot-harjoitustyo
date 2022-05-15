@@ -92,6 +92,12 @@ class TestTicTacToe(unittest.TestCase):
         self.my_tictactoe.check_button_pressed(self.my_tictactoe.grid_size - 1, self.my_tictactoe.grid_size + self.my_tictactoe.bottom_height - 1)
         self.assertEqual(self.my_tictactoe.running, False)
 
+
+
+
+
+
+
 class TestStartMenu(unittest.TestCase):
 
     def setUp(self):
@@ -130,6 +136,11 @@ class TestStartMenu(unittest.TestCase):
         self.assertEqual(player1.get(), '')
         self.assertEqual(player2.get(), '')
         
+
+
+
+
+
 
 class TestTicTacToeBoard(unittest.TestCase):
 
