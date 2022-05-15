@@ -89,4 +89,6 @@ Tallennuksen pystyy tekemään pelin aikana vasemmalta alakulmasta 'Tallenna pel
 Latauksessa on sama, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
 ![](./Kuvat/Lataus.png)
 
-Virheelliset yritykset on estetty try-except tyylillä. Jos jotain tapahtuu heittää ilmoituksen asiasta.
+Ohjelma antaa ilmoituksen, jos tallennus/lataus onnistui tai epäonnistui
+
+Epäonnistuminen on estetty try-except:llä, jotta ohjelma ei kaadu virheeseen, vaan heittää ainoastaan ilmoituksen asiasta.
