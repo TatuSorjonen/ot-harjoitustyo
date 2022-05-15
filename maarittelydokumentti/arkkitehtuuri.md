@@ -104,10 +104,12 @@ sequenceDiagram
   TicTacToe->> TicTacToe: start_game()
 ```
 
-Pelin käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(), joka avaa ruudun laudan ruutujen määrän määrittelylle ja pelaajien nimeämiselle. TicTacToe luokka tarkastaa ovatko arvot oikein. Jos huomataan arvojen virheellisyys, ohjelma palaa aloitusruutuun. Muuten peli alkaa normaalisti ja pygame ikkuna avautuu 
+Ohjelman käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(), joka avaa ruudun laudan ruutujen määrän määrittelylle ja pelaajien nimeämiselle. TicTacToe luokka tarkastaa ovatko arvot oikein. Jos huomataan arvojen virheellisyys, ohjelma palaa aloitusruutuun. Muuten peli alkaa normaalisti ja pygame ikkuna avautuu 
 
 
 #### Pelin pelaaminen
+
+Peli alkaa TicTacToe luokassa play_game-funktiota hyödyntäen. Alla olevassa diagrammissa on kuvattu kuinka peli etenee.
 
 ```mermaid
 sequenceDiagram
@@ -117,12 +119,15 @@ sequenceDiagram
   participant TicTacToeBoard
   participant StartMenu
   TicTacToe->> TicTacToe: play_game()
+  loop
   Player1->> TicTacToe: set_xo(mouse_x, mouse_y)
   TicTacToe->> TicTacToeBoard: add_x(x_square, y_square)
   TicTacToe->> TicTacToe: check_situation()
   Player2->> TicTacToe: set_xo(mouse_x, mouse_y)
   TicTacToe->> TicTacToeBoard: add_0(x_square, y_square)
   TicTacToe->> TicTacToe: check_situation()
+  end
   TicTacToe->> TicTacToe: set_winner()
   TicTacToe->> StartMenu: show()
 ```
+Pelin käynnistettyä pelaajat painavat vuorotellen laudalla ruutuja. Jokaisen painalluksen jälkeen laudalle asetetaan joko x tai o merkki, jos ruutu on tyhjä. 
