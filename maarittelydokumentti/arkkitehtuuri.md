@@ -74,6 +74,7 @@ Ohjelma koostuu main-ohjelmasta ja neljästä eri luokasta
 ## Tietojen pysyväistallennus
 
 Tallennuksen pystyy tekemään pelin aikana vasemmalta alakulmasta 'Tallenna peli' nappia painamalla. Tämä tarkoittaa käytännössä, että lataat pelin koneellesi .ttt muotoon käyttäen Tkinter kirjaston filedialog.asksaveasfilename() funktiota:
+
 ![](./Kuvat/Tallennus.png)
 
 Lataus on toteutettu samoin kuin tallennus, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
