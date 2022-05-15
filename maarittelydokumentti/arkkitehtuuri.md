@@ -104,4 +104,4 @@ sequenceDiagram
   TicTacToe->> TicTacToe: start_game()
 ```
 
-Pelin käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(), joka avaa ruudun laudan ruutujen määrän määrittelylle ja pelaajien nimeämiselle. TicTacToe luokka tarkastaa, onko arvot oikein. Jos huomataan arvojen virheellisyys, ohjelma palaa aloitusruutuun. Muuten peli alkaa normaalisti ja pygame ikkuna avautuu 
+Pelin käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(), joka avaa ruudun laudan ruutujen määrän määrittelylle ja pelaajien nimeämiselle. TicTacToe luokka tarkastaa ovatko arvot oikein. Jos huomataan arvojen virheellisyys, ohjelma palaa aloitusruutuun. Muuten peli alkaa normaalisti ja pygame ikkuna avautuu 
