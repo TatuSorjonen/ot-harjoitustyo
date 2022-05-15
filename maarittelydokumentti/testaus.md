@@ -28,4 +28,4 @@ Olen testannut myös esimerkiksi:
 - Ruudut eivät ole väärän kokoisia, vaikka ruutujen määrä ei ole jaollinen ikkunan koolla.
 - Ristinollassa käyttäjän painettua ruutua, jossa on jo merkki, ohjelma ei laita samaan kohtaan toista merkkiä ja vuoro ei vaihdu.
 - Jos painat ruudukon ulkopuolelle ei tapahdu virhettä.
-- Latauksessa ja tallennuksessa ei tapahdu virhettä vaikka syöttää väärän tiedoston muodon tai väärän tiedoston sisällön. Ohjelma näyttää kiltisti onnistuiko vai eikö.
+- Latauksessa ja tallennuksessa ei tapahdu virhettä, vaikka syöttää väärän tiedoston muodon tai väärän tiedoston sisällön. Ohjelma näyttää kiltisti onnistuiko vai eikö.
