@@ -112,10 +112,10 @@ Pelin käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(),
 ```mermaid
 sequenceDiagram
   actor Player1
+  actor Player2
   participant TicTacToe
   participant TicTacToeBoard
   participant StartMenu
-  actor Player2
   TicTacToe->> TicTacToe: play_game()
   Player1->> TicTacToe: set_xo(mouse_x, mouse_y)
   TicTacToe->> TicTacToeBoard: add_x(x_square, y_square)
