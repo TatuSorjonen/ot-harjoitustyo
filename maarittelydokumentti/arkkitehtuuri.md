@@ -134,6 +134,8 @@ Pelin käynnistettyä pelaajat painavat vuorotellen laudalla näkyviä ruutuja. 
 
 #### Pelin lopettaminen
 
+Pelin voi lopettaa kahdella eri tavalla. Alla olevassa diagrammissa on kuvattu mahdolliset lopetustavat
+
 ```mermaid
 sequenceDiagram
   participant index.py
@@ -152,3 +154,4 @@ sequenceDiagram
   StartMenu-->> TicTacToe: number of squares, player names
   TicTacToe-->> index.py: If number of squares = 0
 ```
+Pelin voi lopettaa, joko painamalla start menun nappia 'Poistu' tai pygame ikkunassa kohdasta 'Lopeta peli'.
