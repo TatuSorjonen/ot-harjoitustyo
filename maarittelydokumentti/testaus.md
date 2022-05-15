@@ -4,7 +4,7 @@ Ohjelmaa testataan käyttäen unittestia ja manuaalisesti
 
 ## Yksikkötestaus
 
-Jokaisesta luokasta on tehty oma testiluokka yksikkötestausta varten. Yksikkötestauksessa pyrin testaamaan kaikki luokkien funktiot ja niiden paluuarvot, jotka eivät vaadi palautetta käyttäjältä. Kaikkia testejä varten luokasta luotiin olio tietyillä parametreillä, jonka jälkeen olioiden funktioita voitiin testata
+Jokaisesta luokasta on tehty oma testiluokka yksikkötestausta varten. Yksikkötestauksessa pyrin testaamaan kaikkien luokkien funktiot ja niiden paluuarvot, jotka eivät vaadi palautetta käyttäjältä. Kaikkia testejä varten luokasta luotiin olio tietyillä parametreillä, jonka jälkeen olioiden funktioita voitiin testata
 
 #### Testauskattavuus
 
