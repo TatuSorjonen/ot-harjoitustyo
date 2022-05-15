@@ -14,10 +14,10 @@ Kun peli aloitetaan kutsumalla TicTacToe luokan run() metodia se avaa StartMenu 
 ## Rakenne
 
 Ohjelma koostuu main-ohjelmasta ja neljästä eri luokasta
-- Luokka TicTacToe on käyttöliittymä, jossa ohjelma tapahtuu
-- Luokka TicTacToeBoard on ristinolla lauta, joka omaa kaikki ristinollalle tyypilliset piirteet
-- Luokka Result pitää yllä missä vaiheessa peliä ollaan menossa
-- Luokka StartMenu on luokka, missä pidetään yllä aloitusruutua
+- Luokka TicTacToe on itse pelin käyttöliittymä, jossa käyttäjät voivat pelata ristinolla peliä
+- Luokka TicTacToeBoard on tietorakenne, jossa pidetään yllä pelin tilaa
+- Luokka Result on apuluokka, jossa on määritelty missä tilanteessa peli voi olla
+- Luokka StartMenu on Tkinter kirjaston avulla toteutettu aloitusvalikko, jossa määritellään pelin aloitusparametrit: Laudan ruutujen määrä ja pelaajien nimet
 
 #### Sekvenssikaavio luokista ja niiden luokkamuuttujista
 
