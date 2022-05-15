@@ -91,9 +91,8 @@ Epäonnistuminen on estetty try-except:llä, jotta ohjelma ei kaadu virheeseen, 
 sequenceDiagram
   participant TicTacToe
   participant StartMenu
-  participant Tictactoeboard
   TicTacToe->> StartMenu: create(StartMenu)
   StartMenu->> TicTacToe: Send(information)
   TicTacToe->> TicTacToe: Check(information)
-  TicTacToe->> StartMenu: Send(fail inforamtion), if player name too long or small
+  TicTacToe->> StartMenu: Send(fail information), if player name too long or small
 ```
