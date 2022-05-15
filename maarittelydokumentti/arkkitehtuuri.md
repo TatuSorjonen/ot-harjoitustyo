@@ -9,7 +9,7 @@ Sovelluksen käyttöliittymä on tehty StartMenu ja TicTacToe luokkien ympärill
 
 TicTacToe luokka (ui) pitää huolen siitä, että aloitusruutu ja pygame ikkuna avautuvat oikeissa kohtaa
 
-Kun peli aloitetaan StartMenu luokasta, TicTacToe luokka tarkistaa, onko arvot oikein. Jos ovat, avaa itse pelin, josta taas voi tallentaa ja ladata pelin halutessaan. Kun peli tallennetaan. Se tallentuu .ttt tiedostossa ja tämän myötä vain .ttt päätteiset tiedostot avautuvat ohjelmassa. Ui ilmoittaa onnistuiko tallennus tai lataus Tkinter messagella.
+Kun peli aloitetaan StartMenu luokasta, TicTacToe luokka tarkistaa, onko arvot oikein. Jos ovat, avaa itse pelin, josta taas voi tallentaa ja ladata pelin halutessaan. Pelin tallennuksessa se tallentuu .ttt tiedostossa, ja tämän myötä vain .ttt päätteiset tiedostot avautuvat ohjelmassa. Ui ilmoittaa onnistuiko tallennus tai lataus Tkinterin omalla ilmoitusruudulla.
 
 ## Rakenne
 
@@ -70,7 +70,6 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
           previous_result
       }
 ```
-
 ## Päätoiminnallisuudet
 
 ```mermaid
@@ -81,3 +80,13 @@ sequenceDiagram
   tictactoe->> board: Foo
   board->>tictactoeboard: Foobar
 ```
+
+## Tietojen pysyväistallennus
+
+Tallennuksen pystyy tekemään pelin aikana vasemmalta alakulmasta 'Tallenna peli' nappia painamalla. Tämä tarkoittaa käytännössä, että lataat pelin koneellesi .ttt muotoon käyttäen Tkinter kirjaston filedialog.asksaveasfilename() funktiota:
+![](./kuvat/Tallennus.png)
+
+Latauksessa on sama, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
+![](./kuvat/Lataus.png)
+
+Virheelliset yritykset on estetty try-except tyylillä. Jos jotain tapahtuu heittää ilmoituksen asiasta.
