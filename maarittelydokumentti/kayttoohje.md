@@ -25,11 +25,24 @@ Jos kuitenkin jostain syystä laitat 0 tai yli 10 merkkiä pitkän nimen kummall
 Tämän jälkeen voit aloittaa pelin kun sinulla on kaksi pelaajaa nimettynä, painamalla 'Aloita peli' painikkeesta
 pelille aukee ikkuna:
 
-![](./Kuvat/Ristinolla.png)
+![](./Kuvat/Lauta.png)
 
 Tässä ikkunassa voidaan vuorotellen painella ruutuja (Vuoro vaihtuu automaattisesti), kunnes toinen pelaaja saa neljän suoran tai lauta menee täyteen.
 
 ![](./Kuvat/Toisenvuoro.png)
+
+Pelissä voi myös tallentaa, ladata ja sulkea pelin.
+Jos painat 'Tallenna peli' nappulasta sinulle ilmestyy ruutu missä voit tallentaa pelin tiedostoon:
+
+![](./Kuvat/Tallennus.png)
+
+Jos taas haluat ladata pelin voit painaa 'Lataa peli kohdasta ja sinulle ilmestyy ruutu mistä voit valita jonkin .ttt tyyppisen tiedoston
+
+![](./Kuvat/Tallennus.png)
+
+Peli ilmoittaa, jos lataus ei onnistu tai onnistuu kyseisellä tavalla (esimerkissä tallennuksen epäonnistuminen:
+
+![](./Kuvat/Tallennus_epaonnistui.png)
 
 Jos toinen pelaaja voittaa, peli palautuu aloitusvalikkoon ja ilmoittaa tuloksen:
 
@@ -41,4 +54,4 @@ Myös tasapelistä tekee saman:
 
 Voit aloittaa pelin niin monta kertaa kuin jaksat
 
-Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta
+Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta tai itse pelissä 'Lopeta peli painiketta'
