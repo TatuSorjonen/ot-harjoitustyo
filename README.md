@@ -5,7 +5,7 @@ Toimii Pygame ja Tkinter kirjaston avulla.
 
 ## Lataus
 
-[Lataa ohjelma tästä itsellesi](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/v1.0.0)
+[Lataa ohjelma tästä itsellesi](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/loppupalautus)
 
 ## Dokumentaatio
 
