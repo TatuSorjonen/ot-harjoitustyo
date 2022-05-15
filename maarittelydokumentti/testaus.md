@@ -18,7 +18,7 @@ Sovellusta on testattu manuaalisesti
 
 #### Asennus
 
-Sovellus haettu ja testattu Linux-ympäristössä käyttöohjeen avulla
+Sovellus haettu ja testattu Linux-ympäristössä käyttöohjeen avulla.
 
 #### Toiminnalisuudet
 
