@@ -22,3 +22,4 @@ Peliä voi pelata kuka tahansa ilman kirjautumista. Myöhemmin voi mahdollisesti
 
 - Kirjautumismahdollisuus käyttäjille
 - Pisteytys
+- Tkinter käyttöliittymäosioiden korvaaminen pygame toteutuksella
