@@ -2,24 +2,23 @@
 
 **Sovelluksen perimmäinen tarkoitus**
 
-Toimii samalla tavalla kuin normaali ristinolla. Vuorotellen laitetaan kahta eri merkkistä kuviota (en ole vielä päättänyt mitä kuvioita), mutta voittaja on se joka saa ensin neljän rivin (muutin kolmesta neljään käytännöllisistä syistä. Jos on ruudukko on suurempi kuin 3x3 toinen voittaa aina helposti pelin, jos on kolmeen).
-Pelaajat voivat myös päättää minkä kokonaisella laudalla he tätä haluavat pelata.
+- Toimii samalla tavalla kuin normaali ristinolla, mutta pelataan neljän suoraan eikä kolmen suoraan. Vuorotellen laitetaan x ja o merkkejä ruudulle. 
+- Pelaajat nimeävät itsensä (1-10 merkkiä) ja laudan koon (5-30 ruutua).
+- Pelin aikana on myös mahdollista tallentaa peli ja ladata jonkin aikaisemman tallentamansa pelin tai sulkea pelin.
 
 **Käyttäjä**
 
-Tätä voi pelata kahdella henkilöllä ilman kirjautumista (tehty).
-
-**Kehittyvyys**
-
-Aluksi on vain 5x5 ruudukko mihin voidaan lisätä kahta erityyppistä kuviota. Myöhemmin pelaajat voivat päättää esimerkiksi ruudukon koon.
+Peliä voi pelata kuka tahansa ilman kirjautumista. Myöhemmin voi mahdollisesti tehdä jonkinlaisen kirjautumisen
 
 **Ristinollan toiminta**
 
-- Aluksi tehdään tietyn kokoinen ruudukko, jolle on ala- ja ylaraja (tehty).
-- Pelaajat asettavat vuorotellen kahta erilaista kuviota (tehty).
-- Voittaja on se kumpi saa ensin neljän rivin (tehty).
+- Pelaajat valitsevat nimet itselleen ja laudan koon. Tämän jälkeen voivat aloittaa pelin
+- Jos pelaajat antavat liian lyhyen nimen tai liian pitkän nimen, peli ei ala ja ruudulle ilmestyy virheteksti
+- Pelissä voittaja on se kumpi pelaaja saa ensin neljän suoran
+- Pelaajat voivat tallentaa ja ladata pelin (Ilmoittaa onnistuiko vai ei)
+- Sovellus ilmoittaa voittajasta ja palaa aloitusruudulle, jos jompikumpi voittaa
 
-**Jatkoideoita jos jää aikaa**
+**Jatkoideoita**
 
-- Tehdään kirjautumismahdollisuus käyttäjille.
-- Pisteytys.
+- Kirjautumismahdollisuus käyttäjille
+- Pisteytys
