@@ -18,6 +18,7 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
  classDiagram
       TicTacToe --> TicTacToeBoard
       TicTacToe --> Result
+      TicTacToe --> StartMenu
       TicTacToeBoard --> Result
       
       class TicTacToe{
