@@ -7,7 +7,7 @@ Sovelluksen käyttöliittymä on tehty StartMenu ja TicTacToe luokkien ympärill
 - Pelin aloitusruutu (StartMenu)
 - Ristinolla peli (TicTacToe)
 
-TicTacToe luokka (ui) pitää huolen siitä, että aloitusruutu ja pygame ikkuna avautuvat oikeissa kohtaa
+TicTacToe luokka pitää huolen siitä, että aloitusruutu ja pygame ikkuna avautuvat oikeissa kohtaa
 
 Kun peli aloitetaan StartMenu luokasta, TicTacToe luokka tarkistaa, onko arvot oikein. Jos ovat, avaa itse pelin, josta taas voi tallentaa ja ladata pelin halutessaan. Pelin tallennuksessa se tallentuu .ttt tiedostossa, ja tämän myötä vain .ttt päätteiset tiedostot avautuvat ohjelmassa. Ui ilmoittaa onnistuiko tallennus tai lataus Tkinterin omalla ilmoitusruudulla.
 
