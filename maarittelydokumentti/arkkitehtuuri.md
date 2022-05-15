@@ -158,4 +158,4 @@ Pelin voi lopettaa, joko painamalla start menun nappia 'Poistu' tai pygame ikkun
 
 ## Ohjelmaan jääneet heikkoudet
 
-Tkinter ei toimi kunnolla pygamen kanssa. Tkinter ikkunan avautuessa pygame kirjasto tapahtumakäsittelijä saattaa jossain tilanteessa luulla, että ohjema ei enää vastaa ja ilmoittaa tästä. Ilmoituksesta pääsee eroon painamalla 'Wait' tai 'Force Quit' painikkeita
+Tkinter kirjasto ei toimi täydellisesti yhteen pygamen kirjaston kanssa. Tkinter ikkunan avautuessa pygame kirjaston tapahtumakäsittelijä saattaa jossain tilanteessa luulla, että ohjema ei enää vastaa ja ilmoittaa tästä. Ilmoituksesta pääsee eroon painamalla 'Wait' tai 'Force Quit' painikkeita, joista jälkimmäinen sulkee ohjelman.
