@@ -84,9 +84,9 @@ sequenceDiagram
 ## Tietojen pysyväistallennus
 
 Tallennuksen pystyy tekemään pelin aikana vasemmalta alakulmasta 'Tallenna peli' nappia painamalla. Tämä tarkoittaa käytännössä, että lataat pelin koneellesi .ttt muotoon käyttäen Tkinter kirjaston filedialog.asksaveasfilename() funktiota:
-![](./kuvat/Tallennus.png)
+![](./Kuvat/Tallennus.png)
 
 Latauksessa on sama, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
-![](./kuvat/Lataus.png)
+![](./Kuvat/Lataus.png)
 
 Virheelliset yritykset on estetty try-except tyylillä. Jos jotain tapahtuu heittää ilmoituksen asiasta.
