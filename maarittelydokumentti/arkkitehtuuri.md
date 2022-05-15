@@ -136,6 +136,7 @@ Pelin käynnistettyä pelaajat painavat vuorotellen laudalla näkyviä ruutuja. 
 
 ```mermaid
 sequenceDiagram
+  participant index.py
   participant TicTacToe
   participant StartMenu
   participant TicTacToeBoard
