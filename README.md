@@ -5,7 +5,7 @@ Toimii Pygame kirjaston avulla.
 
 ## Lataus
 
-[Lataa ohjelma tästä itsellesi](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/viikko6)
+[Lataa ohjelma tästä itsellesi](https://github.com/TatuSorjonen/ot-harjoitustyo/releases/tag/v1.0.0)
 
 ## Dokumentaatio
 
