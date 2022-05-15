@@ -94,11 +94,10 @@ sequenceDiagram
   participant index.py
   participant TicTacToe
   participant StartMenu
-  index.py->> TicTacToe: Create(TicTacToe)
-  index.py->> TicTacToe: Run(TicTacToe)
-  TicTacToe->> StartMenu: Create(StartMenu)
-  StartMenu->> TicTacToe: Send(number of squares, player names)
-  TicTacToe->> TicTacToe: Check(number of squares, player names)
-  TicTacToe->> StartMenu: Send(fail player names), if player name too long or small
-  TicTacToe->> TicTacToe: Startgame
+  index.py->> TicTacToe: run()
+  TicTacToe->> StartMenu: show()
+  StartMenu-->> TicTacToe: number of squares, player names
+  TicTacToe->> TicTacToe: players_name_ok(max_size)
+  TicTacToe->> StartMenu: show(), if player names too long or short
+  TicTacToe->> TicTacToe: start_game()
 ```
