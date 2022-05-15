@@ -13,20 +13,27 @@ class TicTacToe:
     """Ui class for TicTacToe game.
 
     Attributes:
-        start_menu: Starting menu
-        board: Tictactoe board
+        start_menu: Starting menu for setting game parameters
+        tictactoeboard: Tictactoe board data structure
         screen: Pygame window
-        x_image: X image
-        o_image: O image
-        square_size: How big is one square in pixels
-        grid_size: Default window size in pixels
-        num_squares: How many squares in one row
+        x_image: X image for player 1
+        o_image: O image for player 2
+        square_size: How big is one square in pixels (grid size / number of squares). 
+        grid_size: Pygame window size in pixels
+        result_text: Result of the game
+        whose_turn: Whose turn is it (text message)
+        background_color: Background color of the board and the status window
+        grid color: Color of grid lines
+        bottom_height: How long is the window below the grid (Status window and buttons)
+        buttom_width: How long is buttons width
+        running: Is game still running or not 
      """
 
     def __init__(self):
         """Class constructor, which initializes the variables
         and final values are set later, because they depend on user input
         """
+
         self.start_menu = None
         self.tictactoeboard = None
 
@@ -44,7 +51,8 @@ class TicTacToe:
         self.running = True
 
     def run(self):
-        """Function where game runs
+        """Function where game runs in infinite loop 
+        until game ends or player press quit
         """
 
         self.start_game()
@@ -61,8 +69,7 @@ class TicTacToe:
         pygame.quit() # pylint: disable=no-member
 
     def play_game(self):
-        """Event is running while it ends
-        """
+        """Infinite loop for reading user mouse events. Break after running is set to False"""
 
         for event in pygame.event.get():
 
@@ -86,9 +93,9 @@ class TicTacToe:
                     break
 
     def start_game(self):
-        """Call Tkinter Class where you set player names and number of squares.
-        If one of player names are incorrect starts again with error message.
-        Else call set_game function
+        """Call Tkinter Class where the user sets the names of the players and number of squares.
+        If one of player names are incorrect, starts again with error message.
+        Else calls set_game function
         """
 
         self.start_menu = StartMenu(self.result_text)
@@ -109,6 +116,9 @@ class TicTacToe:
     def get_game_variables(self):
         """Show Tkinter menu and set num_squares, player1 and player2 to what user gave it in
         Tkinter window
+        
+        Returns:
+            Number of squares in board, player 1 name and player 2 name
         """
 
         self.start_menu.show()
@@ -122,7 +132,7 @@ class TicTacToe:
             max_size: what is players name max length
 
         Returns:
-            True, if names are the correct length. Otherwise returns False
+            True, if names length are correct (1-max_size). Otherwise returns False
         """
 
         player1_len = len(self.tictactoeboard.player1)
@@ -136,9 +146,10 @@ class TicTacToe:
 
 
     def set_game(self):
-        """Sets game variables right with right num_squares and then calls draw_grid
-        function which draws board right and also draw_status function which draw whose
-        turn is it first time (player 1)
+        """Sets game variables right with right num_squares and then calls:
+        - draw_grid function which draws board. 
+        - draw_status function which draws whose turn is it (first time player 1)
+        - draw_buttons function which draws save, load and quit buttons
         """
 
         self.square_size = int(self.grid_size/self.tictactoeboard.num_squares)
@@ -160,11 +171,11 @@ class TicTacToe:
         self.draw_buttons()
 
     def set_xo(self, mouse_x, mouse_y):
-        """Add x or o in table
+        """Add x or o in tictactoeboard data structure to the square that user clicked
 
         Args:
-            mouse_x: Check x coordinate which position you clicked with mouse
-            mouse_y: Check y coordinate which position you clicked with mouse
+            mouse_x: X coordinate which position user click with mouse
+            mouse_y: Y coordinate which position user click with mouse
         """
 
         x_square = math.floor(mouse_x / self.square_size)
@@ -181,8 +192,8 @@ class TicTacToe:
         self.draw_status()
 
     def update_board(self):
-        """Draw all x and o in table on board
-        """
+        """Draw empty grid and then draw all x and o to the grid. 
+        Function gets x and o positions from the tictactoeboard data structure"""
 
         self.draw_grid()
 
@@ -196,9 +207,7 @@ class TicTacToe:
                     self.screen.blit(self.o_image, (x_coordinate, y_coordinate))
 
     def draw_grid(self):
-        """Draw grid in game
-
-        """
+        """Draws empty grid for the game"""
 
         self.screen.fill((self.background_color), (0, 0, self.grid_size, self.grid_size))
 
@@ -208,7 +217,8 @@ class TicTacToe:
                 pygame.draw.rect(self.screen, self.grid_color, rect, 1)
 
     def draw_status(self):
-        """Draws status in game, whose turn is it and also 'Tallenna' button and 'Lataa' button
+        """Draws a status of the game (whose turn is it) and also calls function draw_buttons
+        which draws save, load and quit buttons
         """
 
         my_font = 'arial'
@@ -232,6 +242,7 @@ class TicTacToe:
 
 
     def draw_buttons(self):
+        """draws save, load and quit buttons to bottom of window"""
 
         save_button_coordinates = (0, self.grid_size + self.bottom_height/2, \
                                    self.button_width, self.bottom_height/2)
@@ -257,6 +268,14 @@ class TicTacToe:
         pygame.display.update()
 
     def draw_one_button(self, button_text, button_coordinates, button_center):
+        """Auxiliary function for drawing buttons
+        
+        Args:
+            button_text: Button text
+            button_coordinates: Where to draw button and what are buttons width and height
+            button_center: Where is center of button
+        """
+    
         button_font = 'arial'
         button_font_size = 24
         button_color = (150, 150, 150)
@@ -266,11 +285,20 @@ class TicTacToe:
         font = pygame.font.SysFont(button_font, button_font_size)
         text = font.render(button_text, 1, font_color)
         pygame.draw.rect(self.screen,(button_color), button_coordinates)
+        
+        # Draws button borders and text
         pygame.draw.rect(self.screen, border_color, pygame.Rect(button_coordinates), 4, 0)
         text_rect = text.get_rect(center=button_center)
         self.screen.blit(text, text_rect)
 
     def check_button_pressed(self, mouse_x, mouse_y):
+        """Check if user press one of buttons
+        
+        Args:
+            mouse_x: Check x coordinate which position user clicked with mouse
+            mouse_y: Check y coordinate which position user clicked with mouse
+        """
+
         if 0 < mouse_x < self.button_width and\
            self.grid_size + self.bottom_height/2 < mouse_y < self.grid_size + self.bottom_height:
             self.save_game()
@@ -284,6 +312,8 @@ class TicTacToe:
             self.running = False
 
     def save_game(self):
+        """Function for saving game and printing result message"""
+
         message = 'Tallennus onnistui'
         window_title = 'Tallennus'
         try:
@@ -291,7 +321,6 @@ class TicTacToe:
             save_menu.withdraw()
             save_filename = tkinter.filedialog.asksaveasfilename(title= "Tallenna tiedosto"\
                             ,filetypes=[("Tictactoe tiedostot", "*.ttt")])
-            print('SAVE' + '\n' + save_filename)
             save_menu.destroy()
             with open(save_filename, "wb") as save_file:
                 pickle.dump(self.tictactoeboard, save_file)
@@ -302,6 +331,8 @@ class TicTacToe:
 
 
     def load_game(self):
+        """Function for loading game and printing result message"""
+
         message = 'Lataus onnistui'
         window_title = 'Lataus'
         try:
@@ -322,6 +353,13 @@ class TicTacToe:
             self.print_message(message, window_title)
 
     def print_message(self, message, window_title):
+        """Function that print message if needed. Uses Tkinter popup window
+        
+        Args:
+            message: Message that is shown to user
+            window_title: Window title
+        """
+
         errorwindow = tk.Tk()
         errorwindow.overrideredirect(1)
         errorwindow.withdraw()
@@ -329,8 +367,7 @@ class TicTacToe:
         errorwindow.destroy()
 
     def set_result(self):
-        """Set result text who wins or is it draw
-        """
+        """Set result text who wins or is it draw"""
 
         if self.tictactoeboard.result == Result.FIRST_WIN:
             self.result_text = f"{self.tictactoeboard.player1} voittaa"
