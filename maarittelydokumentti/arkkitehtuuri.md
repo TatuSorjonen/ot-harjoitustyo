@@ -142,7 +142,8 @@ sequenceDiagram
   participant TicTacToeBoard
   index.py->> TicTacToe: run()
   TicTacToe->> StartMenu: show()
-  StartMenu-->> TicTacToe: quit
+  StartMenu-->> TicTacToe: num_squares = 0
+  TicTacToe-->> index.py: None
   TicTacToe->> TicTacToe: play_game()
   
 ```
