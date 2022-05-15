@@ -13,7 +13,7 @@ Kun peli aloitetaan kutsumalla TicTacToe luokan run() metodia se avaa StartMenu 
 
 ## Rakenne
 
-Koostuu main-ohjelmasta ja neljästä eri luokasta
+Ohjelma koostuu main-ohjelmasta ja neljästä eri luokasta
 - Luokka TicTacToe on käyttöliittymä, jossa ohjelma tapahtuu
 - Luokka TicTacToeBoard on ristinolla lauta, joka omaa kaikki ristinollalle tyypilliset piirteet
 - Luokka Result pitää yllä missä vaiheessa peliä ollaan menossa
