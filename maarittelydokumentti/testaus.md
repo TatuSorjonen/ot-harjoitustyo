@@ -11,3 +11,15 @@ Jokaisesta luokasta on tehty oma testiluokka yksikkötestausta varten. Yksikköt
 Testauksen haarautumakattavuus on 73% testaamattomat käyttöliittymähaarautumat mukaan lukien. Testiluokat TestTicTacToe, TestStartMenu ja TestTicTacToeBoard sijaitsevat tiedostossa tictactoe_test.py
 
 ![](./Kuvat/Coveragereport.png)
+
+## Järjestelmätestaus
+
+Sovellusta on testattu manuaalisesti
+
+#### Asennus
+
+Sovellus haettu ja testattu Linux-ympäristössä käyttöohjeen avulla
+
+#### Toiminnalisuudet
+
+[Vaativuusmäärittelyn]
