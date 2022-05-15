@@ -89,6 +89,8 @@ Epäonnistuminen on estetty try-except:llä, jotta ohjelma ei kaadu virheeseen, 
 
 #### Pelin aloittaminen
 
+Peli aloitetaan index.py tiedoston main funktiosta, joka luo uuden TicTacToe luokan ilmentymän ja käynnistää pelin TicTacToe luokan run-funktiolla. Alla olevassa diagrammissa on kuvattu kuinka pelin aloittaminen etenee. 
+
 ```mermaid
 sequenceDiagram
   participant index.py
@@ -101,3 +103,5 @@ sequenceDiagram
   TicTacToe->> StartMenu: show(), if player names too long or short
   TicTacToe->> TicTacToe: start_game()
 ```
+
+Pelin käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show(), joka avaa ruudun laudan ruutujen määrän määrittelylle ja pelaajien nimeämiselle. TicTacToe luokka tarkastaa, onko arvot oikein. Jos huomataan arvojen virheellisyys, ohjelma palaa aloitusruutuun. Muuten peli alkaa normaalisti ja pygame ikkuna avautuu 
