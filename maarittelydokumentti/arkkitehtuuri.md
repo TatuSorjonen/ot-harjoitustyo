@@ -115,7 +115,14 @@ sequenceDiagram
   actor Player2
   participant TicTacToe
   participant StartMenu
+  participant TicTacToeBoard
   TicTacToe->> TicTacToe: play_game()
   Player1->> TicTacToe: set_xo(mouse_x, mouse_y)
+  TicTacToe->> TicTacToeBoard: add_x(x_square, y_square)
+  TicTacToe->> TicTacToe: check_situation()
+  Player2->> TicTacToe: set_xo(mouse_x, mouse_y)
+  TicTacToe->> TicTacToeBoard: add_0(x_square, y_square)
+  TicTacToe->> TicTacToe: check_situation()
+  TicTacToe->> TicTacToe: set_winner()
   TicTacToe->> StartMenu: show()
 ```
