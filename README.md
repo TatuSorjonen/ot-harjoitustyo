@@ -1,7 +1,7 @@
 # Ristinolla
 
 Tarvitsee python version 3.8 toimiakseen.
-Toimii Pygame kirjaston avulla.
+Toimii Pygame ja Tkinter kirjaston avulla.
 
 ## Lataus
 
