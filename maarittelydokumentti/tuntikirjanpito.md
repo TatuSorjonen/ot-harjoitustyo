@@ -26,4 +26,6 @@
 | 9.5   |  3   | Pelaajien nimeäminen tehty |
 | 11.5  |  2   | Docstring dokumeentaatio tehty |
 | 12.5  |  8   | Huomasin koodissa olevan paljon kaikennäköisiä virheitä, joka tuotti sen, että jouduin tekemään paljon uudestaan. Tähän meni aikaa ja testejä joutui tehdä myös lisää |
-| yht   |  81  | | 
+| 14.5  |  11  | Pysyväistallennus ja sen vaatimat käyttöliittymät tehty + testausta, muokattu hieman ohjelman rakennetta |
+| 15.5  |  9   | Dokumentaatio + testausta | 
+| yht   |  101  | | 
