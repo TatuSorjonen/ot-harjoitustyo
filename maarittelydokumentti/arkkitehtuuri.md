@@ -70,16 +70,6 @@ Koostuu main-ohjelmasta ja neljästä eri luokasta
           previous_result
       }
 ```
-## Päätoiminnallisuudet
-
-```mermaid
-sequenceDiagram
-  participant tictactoe
-  participant board
-  participant tictactoeboard
-  tictactoe->> board: Foo
-  board->>tictactoeboard: Foobar
-```
 
 ## Tietojen pysyväistallennus
 
@@ -92,3 +82,16 @@ Latauksessa on sama, mutta käytetään Tkinter kirjaston fliedialog.askopenfile
 Ohjelma antaa ilmoituksen, jos tallennus/lataus onnistui tai epäonnistui
 
 Epäonnistuminen on estetty try-except:llä, jotta ohjelma ei kaadu virheeseen, vaan heittää ainoastaan ilmoituksen asiasta.
+
+## Päätoiminnallisuudet
+
+#### Pelin aloittaminen
+
+```mermaid
+sequenceDiagram
+  participant TicTacToe
+  participant StartMenu
+  participant Tictactoeboard
+  TicTacToe->> StartMenu: create(StartMenu)
+  StartMenu->> TicTacToe: Send board information(Board num_squares, player1 name, player2 name)
+```
