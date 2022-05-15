@@ -9,7 +9,7 @@ Sovelluksen käyttöliittymä on tehty StartMenu ja TicTacToe luokkien ympärill
 
 TicTacToe luokka pitää huolen siitä, että aloitusruutu ja pygame ikkuna avautuvat oikeissa kohtaa
 
-Kun peli aloitetaan kutsumalla TicTacToe luokan run() metodia se avaa StartMenu luokan avulla ikkunan, johon käyttäjä voi syöttää pelin aloitusarvot: laudan ruutujen määrä ja pelaajien nimet. TicTacToe luokka tarkistaa, ovatko annetut arvot oikein. Jos ovat, käynnistää itse pelin. Pelin aikana käyttäjä voi tallentaa pelin, ladata aikaisemmin tallennetun pelin tai lopettaa pelin. Pelit tallennetaan tiedostoihin, joiden pääte on .ttt (TicTacToe), ja tämän myötä vain .ttt päätteiset tiedostot avautuvat ohjelmassa. Käyttöliittymä ilmoittaa Tkinter luokan avaaman popup ikkunan avulla onnistuiko tallenus7lataus operaatio.
+Kun peli aloitetaan kutsumalla TicTacToe luokan run() metodia se avaa StartMenu luokan avulla ikkunan, johon käyttäjä voi syöttää pelin aloitusarvot: laudan ruutujen määrä ja pelaajien nimet. TicTacToe luokka tarkistaa, ovatko annetut arvot oikein. Jos ovat, käynnistää itse pelin. Pelin aikana käyttäjä voi tallentaa pelin, ladata aikaisemmin tallennetun pelin tai lopettaa pelin. Pelit tallennetaan tiedostoihin, joiden pääte on .ttt (TicTacToe), ja tämän myötä vain .ttt päätteiset tiedostot avautuvat ohjelmassa. Käyttöliittymä ilmoittaa Tkinter luokan avaaman popup ikkunan avulla onnistuiko tallenus/lataus operaatio.
 
 ## Rakenne
 
@@ -129,7 +129,7 @@ sequenceDiagram
   TicTacToe->> TicTacToe: set_winner()
   TicTacToe->> StartMenu: show()
 ```
-Pelin käynnistettyä pelaajat painavat vuorotellen laudalla näkyviä ruutuja. Jokaisen painalluksen jälkeen laudalle asetetaan joko x tai o merkki, jos ruutu on tyhjä. Laudan tilaa pidetään yllä TicTacToeBoard luokassa. Ruudukon ulkopuolelle tehdyt klikkaukset eivät päivitä tietorakenteen tilaa. Jokaisen siirron jälkeen päivitetään ruudukko ja piirretään uusi tilanne lisäksi tarkastetaan onko voittaja löytynyt tai peli päättynyt tasapeliin. Jos on tai lauta on täynnä niin peli loppuu ja uusi StartMenu luokan avulla avattava aloitusruutu aukeaa.
+Pelin käynnistettyä pelaajat painavat vuorotellen laudalla näkyviä ruutuja. Jokaisen painalluksen jälkeen laudalle asetetaan joko x tai o merkki, jos ruutu on tyhjä. Laudan tilaa pidetään yllä TicTacToeBoard luokassa. Ruudukon ulkopuolelle tehdyt klikkaukset eivät päivitä tietorakenteen tilaa. Jokaisen siirron jälkeen päivitetään ruudukko ja piirretään uusi tilanne. Lisäksi tarkastetaan onko voittaja löytynyt tai peli päättynyt tasapeliin. Jos on tai lauta on täynnä niin peli loppuu ja uusi StartMenu luokan avulla avattava aloitusruutu aukeaa.
 
 
 #### Pelin lopettaminen
