@@ -95,6 +95,7 @@ sequenceDiagram
   participant TicTacToe
   participant StartMenu
   index.py->> TicTacToe: Create(TicTacToe)
+  index.py->> TicTacToe: Run(TicTacToe)
   TicTacToe->> StartMenu: Create(StartMenu)
   StartMenu->> TicTacToe: Send(number of squares, player names)
   TicTacToe->> TicTacToe: Check(number of squares, player names)
