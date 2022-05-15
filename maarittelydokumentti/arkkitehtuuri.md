@@ -129,4 +129,4 @@ sequenceDiagram
   TicTacToe->> TicTacToe: set_winner()
   TicTacToe->> StartMenu: show()
 ```
-Pelin käynnistettyä pelaajat painavat vuorotellen laudalla ruutuja. Jokaisen painalluksen jälkeen laudalle asetetaan joko x tai o merkki, jos ruutu on tyhjä. 
+Pelin käynnistettyä pelaajat painavat vuorotellen laudalla näkyviä ruutuja. Jokaisen painalluksen jälkeen laudalle asetetaan joko x tai o merkki, jos ruutu on tyhjä. Laudan tilaa pidetään yllä TicTacToeBoard luokassa. Ruudukon ulkopuolelle tehdyt klikkaukset eivät päivitä tietorakenteen tilaa. Jokaisen siirron jälkeen päivitetään ruudukko ja piirretään uusi tilanne lisäksi tarkastetaan onko voittaja löytynyt tai peli päättynyt tasapeliin. Jos on tai lauta on täynnä niin peli loppuu ja uusi StartMenu luokan avulla avattava aloitusruutu aukeaa.
