@@ -53,4 +53,4 @@ Myös tasapelistä tekee saman:
 
 Voit aloittaa pelin niin monta kertaa kuin jaksat
 
-Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta tai itse pelissä 'Lopeta peli painiketta'
+Kun et enää jaksa pelata, voit lopettaa pelin painamalla 'Poistu' painiketta tai itse pelissä 'Lopeta peli' painiketta
