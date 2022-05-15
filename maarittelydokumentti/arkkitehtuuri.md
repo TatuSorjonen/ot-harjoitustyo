@@ -76,7 +76,7 @@ Ohjelma koostuu main-ohjelmasta ja neljästä eri luokasta
 Tallennuksen pystyy tekemään pelin aikana vasemmalta alakulmasta 'Tallenna peli' nappia painamalla. Tämä tarkoittaa käytännössä, että lataat pelin koneellesi .ttt muotoon käyttäen Tkinter kirjaston filedialog.asksaveasfilename() funktiota:
 ![](./Kuvat/Tallennus.png)
 
-Latauksessa on sama, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
+Lataus on toteutettu samoin kuin tallennus, mutta käytetään Tkinter kirjaston fliedialog.askopenfilename() funktiota:
 ![](./Kuvat/Lataus.png)
 
 Ohjelma antaa ilmoituksen, jos tallennus/lataus onnistui tai epäonnistui
