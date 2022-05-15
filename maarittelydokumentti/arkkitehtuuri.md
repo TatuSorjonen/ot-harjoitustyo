@@ -142,8 +142,13 @@ sequenceDiagram
   participant TicTacToeBoard
   index.py->> TicTacToe: run()
   TicTacToe->> StartMenu: show()
-  StartMenu-->> TicTacToe: num_squares = 0
-  TicTacToe-->> index.py: None
+  StartMenu-->> TicTacToe: number of squares, player names
+  TicTacToe-->> index.py: If number of squares = 0
   TicTacToe->> TicTacToe: play_game()
-  
+  TicTacToe->> TicTacToe: check_button_pressed()
+  TicTacToe-->> index.py: If user clicked quit button
+  TicTacToe->> TicTacToe: check_situation()
+  TicTacToe->> StartMenu: show()
+  StartMenu-->> TicTacToe: number of squares, player names
+  TicTacToe-->> index.py: If number of squares = 0
 ```
