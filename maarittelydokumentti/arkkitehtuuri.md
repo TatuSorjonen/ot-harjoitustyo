@@ -118,7 +118,7 @@ sequenceDiagram
   participant TicTacToe
   participant TicTacToeBoard
   participant StartMenu
-  loop (TicTacToe.play_game())
+  loop TicTacToe.play_game()
   Player1->> TicTacToe: set_xo(mouse_x, mouse_y)
   TicTacToe->> TicTacToeBoard: add_x(x_square, y_square)
   TicTacToe->> TicTacToe: check_situation()
