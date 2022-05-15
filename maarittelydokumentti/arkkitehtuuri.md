@@ -100,4 +100,5 @@ sequenceDiagram
   StartMenu->> TicTacToe: Send(number of squares, player names)
   TicTacToe->> TicTacToe: Check(number of squares, player names)
   TicTacToe->> StartMenu: Send(fail player names), if player name too long or small
+  TicTacToe->> TicTacToe: Startgame
 ```
