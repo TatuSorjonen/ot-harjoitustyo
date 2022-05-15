@@ -19,6 +19,8 @@ Toimii Pygame kirjaston avulla.
 
 [Arkkitehtuuri](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/arkkitehtuuri.md)
 
+[Testaus](https://github.com/TatuSorjonen/ot-harjoitustyo/blob/main/maarittelydokumentti/testaus.md)
+
 ## Asennukseen vaadittavat komennot
 
 Asenna python 3.8
