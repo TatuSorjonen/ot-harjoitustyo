@@ -93,5 +93,7 @@ sequenceDiagram
   participant StartMenu
   participant Tictactoeboard
   TicTacToe->> StartMenu: create(StartMenu)
-  StartMenu->> TicTacToe: Send board information(Board num_squares, player1 name, player2 name)
+  StartMenu->> TicTacToe: Send(information)
+  TicTacToe->> TicTacToe: Check(information)
+  TicTacToe->> StartMenu: Send(fail inforamtion), if player name too long or small
 ```
