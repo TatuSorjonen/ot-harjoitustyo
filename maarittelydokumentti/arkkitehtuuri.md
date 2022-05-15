@@ -109,7 +109,7 @@ Ohjelman käynnistettyä TicTacToe luokka kutsuu StartMenu luokan funktiota show
 
 #### Pelin pelaaminen
 
-Peli alkaa TicTacToe luokassa play_game-funktiota hyödyntäen. Alla olevassa diagrammissa on kuvattu kuinka peli etenee.
+Peliä pelataan TicTacToe luokassa play_game-funktion silmukkaa hyödyntäen. Alla olevassa diagrammissa on kuvattu kuinka peli etenee.
 
 ```mermaid
 sequenceDiagram
